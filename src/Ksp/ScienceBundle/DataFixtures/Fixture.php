@@ -39,6 +39,78 @@ abstract class Fixture extends AbstractFixture implements OrderedFixtureInterfac
         );
     }
 
+    /**
+     * @param $biome
+     * @throws \Exception
+     * @return string
+     */
+    protected function getBiomeName($biome)
+    {
+        $names = array(
+            'srflandedlaunchpad' => 'Surface (Launchpad)',
+            'srflandedrunway' => 'Surface (Runway)',
+            'srflandedksc' => 'Surface (KSC)',
+            'flyinglowgrasslands' => 'Flying low (Grasslands)',
+            'flyinglowhighlands' => 'Flying low (Highlands)',
+            'flyinglowmountains' => 'Flying low (Mountains)',
+            'flyinglowdeserts' => 'Flying low (Deserts)',
+            'flyinglowbadlands' => 'Flying low (Badlands)',
+            'flyinglowtundra' => 'Flying low (Tundra)',
+            'flyinglowicecaps' => 'Flying low (IceCaps)',
+            'flyinglowshores' => 'Flying low (Shores)',
+            'flyinglowwater' => 'Flying low (Water)',
+            'inspacelow' => 'In low space',
+            'inspace' => 'In space',
+            'srflanded' => 'Surface',
+            'srf' => 'Surface',
+            'inspacehigh' => 'In high space',
+            'flyinglow' => 'Flying low',
+            'flyinghigh' => 'flying high',
+            'srflandeddeserts' => 'Surface (Deserts)',
+            'srfsplashedwater' => 'Splashed (Water)',
+            'srfsplashedshores' => 'Splashed (Shores)',
+            'srflandedshores' => 'Landed (Shores)',
+            'srflandedgrasslands' => 'Landed (Grasslands)',
+            'srflandedhighlands' => 'Landed (Highlands)',
+            'srflandedmountains' => 'Landed (Mountains)',
+            'srflandedtundra' => 'Landed (Tundra)',
+            'srflandedicecaps' => 'Landed (IceCaps)',
+            'srflandedbadlands' => 'Landed (Badlands)',
+            'srflandedwater' => 'Landed (Water)',
+            'srflandedmidlands' => 'Landed (Midlands)',
+            'srflandednorthernbasin' => 'Landed (Northern Basin)',
+            'srflandedeastcrater' => 'Landed (East Crater)',
+            'srflandednorthwestcrater' => 'Landed (Northwest Crater)',
+            'srflandedsouthwestcrater' => 'Landed (Southwest Crater)',
+            'srflandedfarsidecrater' => 'Landed (Farside Crater)',
+            'srflandedcanyons' => 'Landed (Canyons)',
+            'srflandedpolarcrater' => 'Landed (Polar Crater)',
+            'srflandedpoles' => 'Landed (Poles)',
+            'srflandedpolarlowlands' => 'Landed (Polar Lowlands)',
+            'srflandedhighlandcraters' => 'Landed (Highland Crater)',
+            'srflandedmidlandcraters' => 'Landed (Midland Crater)',
+            'srflandedeastfarsidecrater' => 'Landed (East Farside Crater)',
+            'srflandedtwincraters' => 'Landed (Twin Crater)',
+            'srfsplashed' => 'Surface (Splashed)',
+            'srfbadlands' => 'Surface (Badlands)',
+            'inspacegrasslands' => 'In space (Grasslands)',
+            'inspacehighlands' => 'In space (Highlands)',
+            'inspacemountains' => 'In space (Mountains)',
+            'inspacedeserts' => 'In space (Deserts)',
+            'inspacebadlands' => 'In space (Badlands)',
+            'inspaceicecaps' => 'In space (Ice Caps)',
+            'inspaceshores' => 'In space (Shores)',
+            'inspacewater' => 'In space (Water)',
+        );
+
+        if (array_key_exists($biome, $names)) {
+            return $names[$biome];
+        }
+
+        throw new \Exception('Biome (' . $biome . ') was not found');
+
+    }
+
     protected function getBiomes()
     {
         return <<<'EOF'

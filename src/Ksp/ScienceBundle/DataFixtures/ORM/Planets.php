@@ -26,7 +26,7 @@ class Planets extends Fixture
             $entity = new Planet;
             $entity
                 ->setName($planet['name'])
-                ->setKspkey($key)
+                ->setKspkey(strtolower($key))
                 ->setPosition($sort)
                 ->setSortgroup(($parent === null ? 'root' : strtolower($parent->getName())))
             ;
@@ -35,7 +35,7 @@ class Planets extends Fixture
                 $entity->setParent($parent);
             }
 
-            $this->setReference('planet-' . $key, $entity);
+            $this->setReference('planet-' . strtolower($key), $entity);
             $manager->persist($entity);
 
             if (array_key_exists('children', $planet) && is_array($planet['children'])) {

@@ -1,0 +1,9 @@
+<table>
+    {% for s in sciences %}
+        <tr>
+            <td>{{ s.biome.planet.name }}</td>
+            <td>{{ s.biome.name }}</td>
+            <td>{{ s.tech.name }}</td>
+        </tr>
+    {% endfor %}
+</table>

@@ -1,62 +1,35 @@
 <?php
 
-namespace Ksp\ScienceBundle\Entity;
+namespace Ksp\ScienceBundle\Document;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
+use Ksp\ScienceBundle\Entity;
 
 /**
  * Tech
  *
- * @ORM\Table(name="tech")
- * @ORM\Entity(repositoryClass="Ksp\ScienceBundle\Entity\Repository\Tech")
  */
 class Tech
 {
     /**
-     * @var integer
-     *
-     * @ORM\Column(name="id", type="integer")
-     * @ORM\Id
-     * @ORM\GeneratedValue(strategy="AUTO")
-     */
-    private $id;
-
-    /**
      * @var string
-     *
-     * @ORM\Column(name="name", type="string", length=255)
      */
     private $name;
 
     /**
      * @var string
-     *
-     * @ORM\Column(name="kspkey", type="string", length=255)
      */
     private $kspkey;
 
     /**
      * @var ArrayCollection[]Science
-     *
-     * @ORM\OneToMany(targetEntity="Science", mappedBy="tech")
      */
     private $techs;
 
     public function __construct()
     {
         $this->techs = new ArrayCollection();
-    }
-
-
-    /**
-     * Get id
-     *
-     * @return integer 
-     */
-    public function getId()
-    {
-        return $this->id;
     }
 
     /**
@@ -108,10 +81,10 @@ class Tech
     /**
      * Add techs
      *
-     * @param \Ksp\ScienceBundle\Entity\Science $techs
+     * @param Science $techs
      * @return Tech
      */
-    public function addTech(\Ksp\ScienceBundle\Entity\Science $techs)
+    public function addTech(Science $techs)
     {
         $this->techs[] = $techs;
 
@@ -121,9 +94,9 @@ class Tech
     /**
      * Remove techs
      *
-     * @param \Ksp\ScienceBundle\Entity\Science $techs
+     * @param Science $techs
      */
-    public function removeTech(\Ksp\ScienceBundle\Entity\Science $techs)
+    public function removeTech(Science $techs)
     {
         $this->techs->removeElement($techs);
     }

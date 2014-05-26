@@ -83,7 +83,6 @@ EveInSpace
 EveInSpace
 DunaInSpace
 Mun
-InSpace
 BopInSpace
 PolInSpace
 EeLooInSpace
@@ -178,7 +177,6 @@ KerbinInSpaceLow
 MunSrfLanded
 MunSrfLanded
 MinmusSrfLanded
-InSpace
 EveSrfLanded
 EveSrfLanded
 EveFlyingHigh
@@ -343,3 +341,11 @@ BopSrfLanded
 BopSrfLanded
 PolSrfLanded
 EelooSrfLanded
+KeringFlyingLowWater
+Mun
+InSpace
+InSpace
+KeringFlyingLowWater
+Mun
+InSpace
+InSpace

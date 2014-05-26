@@ -46,7 +46,6 @@ class Biome
     /**
      * @var ArrayCollection[]Science
      *
-     * @ORM\OneToMany(targetEntity="Science", mappedBy="biome")
      */
     private $sciences;
 
