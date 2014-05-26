@@ -1,0 +1,5 @@
+ksp_science:
+    resource: "@KspScienceBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
