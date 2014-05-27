@@ -1,11 +1,26 @@
-<form action="{{ url('default_show') }}" method="post" enctype="multipart/form-data">
-    <label>
-        Science file
-        <input type="file" name="science" />
-    </label>
-    <label>
-        Persistent file
-        <input type="file" name="persistent" />
-    </label>
-    <button type="submit">Submit</button>
-</form>
+{% extends '::base.html.twig' %}
+{% block content %}
+    <div class="row">
+        <div class="col-md-10">
+            {% include 'KspScienceBundle:Default/_partial:planet.html.twig' with {"planets": biomes} %}
+        </div>
+        <div class="col-md-2">
+            <form action="{{ url('default_index') }}" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="persistent">Persistent file</label>
+                    <input class="form-control" type="file" name="persistent" id="persistent" />
+                    <span class="help-block">
+                        The file can be found in your<br />
+                        &lt;KSP folder&gt;/saves/&lt;your save name&gt;
+                    </span>
+                </div>
+                <button type="submit" class="btn btn-info btn-lg">Submit</button>
+                
+                <span class="help-block">
+                    Your file will be stored, and will only be used for testing purposes
+                </span>
+                
+            </form>
+        </div>
+    </div>
+{% endblock %}

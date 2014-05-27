@@ -1,94 +1,77 @@
 <?php
 namespace Ksp\ScienceBundle\FileParser;
 
-use Doctrine\Common\Persistence\ObjectManager;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
-use Ksp\ScienceBundle\Entity;
-use Ksp\ScienceBundle\Document;
 
 class Parser
 {
 
-    private $errorFile = '/../../../../biomeErrors.log';
-
     /**
-     * @var Entity\Repository\Biome
+     * @var \Symfony\Component\HttpFoundation\File\UploadedFile
      */
-    private $biomeManager;
-
-    public function __construct(Entity\Repository\Biome $biomeManager)
+    private $file;
+    
+    public function __construct(UploadedFile $file)
     {
-        $this->biomeManager = $biomeManager;
+        $this->file = $file;
     }
-
-    private function __(\SimpleXMLElement $element)
+    
+    public function validatePersistentFile()
     {
-        return (string)$element;
-    }
-
-    /**
-     * @param UploadedFile $file
-     * @return array
-     */
-    public function parseScienceFile(UploadedFile $file)
-    {
-        $xml = $this->parseFile($file, 'science');
-        if ($xml === false) {
-            return false;
+        if (! $this->file->getClientOriginalExtension() === 'sfs') {
+            throw new \Exception('Wrong file extension');
         }
+        
+        if (! $this->file->getClientOriginalName() === 'persistent.sfs') {
+            throw new \Exception('Wrong file name');
+        }
+        
+        $data = file_get_contents($this->file->getRealPath());
+        if (strpos($data, 'GAME') !== 0) {
+            throw new \Exception('Wrong data');
+        }
+        
+        file_put_contents(__DIR__ . '/../../../../app/uploads/' . time() . '_' . rand(0,1000) . '.persistent.sts', $data);
+        return true;
+        
+    }
 
-        $sciences = array();
-        foreach($xml->EXPERIMENT_DEFINITION as $experiment) {
-            /** @var \SimpleXMLElement $experiments */
-            $tech = new Document\Tech;
-            $tech
-                ->setName($this->__($experiment->title))
-                ->setKspkey($this->__($experiment->id))
-            ;
-
-            foreach($experiment->RESULTS->children() as $result) {
-                /** @var \SimpleXMLElement $result */
-                if ($result->getName() === 'default') continue;
-
-                $biomeandplanet = self::parseBiomeAndPlanet($result->getName());
-                if ($biomeandplanet === false) {
-                    file_put_contents(__DIR__ . $this->errorFile, $result->getName() . "\n", FILE_APPEND);
-                    continue;
-                }
-
-                $biome = $this->biomeManager->findOneBy(array('kspkey' => strtolower($biomeandplanet['biome'])));
-                if ($biome instanceof Entity\Biome) {
-                    $science = new Document\Science;
-                    $science
-                        ->setBiome($biome)
-                        ->setTech($tech);
-                    $sciences[] = $science;
-                } else {
-                    file_put_contents(__DIR__ . $this->errorFile, $result->getName() . "\n", FILE_APPEND);
-                }
+    public function parsePersistentFile()
+    {
+        $xml = $this->parseFile('persistent');
+        if ($xml === false) {
+            return array();
+        }
+        
+        /*
+        header('Content-Type: text/xml');
+        echo $xml->asXML();
+        exit;
+        */
+        
+        $output = array();        
+        foreach($xml->GAME->SCENARIO as $scenario) {
+            if ($this->__($scenario->name) !== 'ResearchAndDevelopment') {
+                continue;
+            }
+            
+            foreach($scenario->Science as $science) {
+                $output[$this->__($science->id)] = array(
+                    'cap' => $this->__($science->cap),
+                    'points' => $this->__($science->sci)
+                );
             }
         }
-
-        return $sciences;
-    }
-
-    public function parsePersistentFile(UploadedFile $file)
-    {
-        $xml = $this->parseFile($file, 'persistent');
-        if ($xml === false) {
-            return false;
-        }
-
-
-
+        
+        return $output;
+        
     }
 
     /**
-     * @param UploadedFile $file
      * @param $root
      * @return \SimpleXMLElement|false
      */
-    private function parseFile(UploadedFile $file, $root)
+    private function parseFile($root)
     {
         $xml = new \XMLWriter;
         $xml->openMemory();
@@ -96,7 +79,7 @@ class Parser
         $xml->startDocument();
         $xml->startElement($root);
 
-        $content = file_get_contents($file->getRealPath());
+        $content = file_get_contents($this->file->getRealPath());
 
         $lastLine = '';
         $lines = explode("\n", $content);
@@ -139,38 +122,10 @@ class Parser
         return $xml;
 
     }
-
-    /**
-     * @param $string
-     * @return array|bool
-     */
-    static public function parseBiomeAndPlanet($string)
+    
+    private function __(\SimpleXMLElement $element)
     {
-        $splits = preg_split('/([[:upper:]][[:lower:]]+)/', $string, null, PREG_SPLIT_DELIM_CAPTURE|PREG_SPLIT_NO_EMPTY);
-
-        $planet = implode('', array_slice($splits, 0, 1));
-        $biome = implode('', array_slice($splits, 1));
-
-        switch($biome) {
-            case 'LooInSpace':
-                $planet = ucfirst(strtolower(implode('', array_slice($splits, 0, 2))));
-                $biome = implode('', array_slice($splits, 2));
-                break;
-            case 'Space':
-            case '':
-                return false;
-        }
-
-        switch(strtolower($planet)) {
-            case 'kering':
-                return false;
-            case 'eeeloo':
-                $planet = 'eeloo';
-                break;
-        }
-
-        return array('planet' => $planet, 'biome' => $biome);
-
+        return (string)$element;
     }
 
 } 

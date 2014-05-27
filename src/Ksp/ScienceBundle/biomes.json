@@ -1,0 +1,310 @@
+{
+    "Sun": {
+        "Universal": [
+            {"name": "Low Space", "key": "InSpaceLow", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh", "techs": "001000"}
+        ]
+    },
+    "Moho": {
+        "Universal": [
+            {"name": "Surface", "key": "SrfLanded", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow", "techs": "00100"},
+            {"name": "High Space", "key": "InSpaceHigh", "techs": "00100"}
+        ]
+    },
+    "Eve": {
+        "Universal": [
+            {"name": "Lower Atmosphere", "key": "XXX", "techs": "110010"},
+            {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
+            {"name": "Low Space", "key": "InSpaceLow", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh", "techs": "001000"}
+        ],
+        "Land": [
+            {"name": "Surface", "key": "SrfLanded", "techs": "111111"}
+        ],
+        "Ocean": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "111111"}
+        ]
+    },
+    "Gilly": {
+        "Universal": [
+            {"name": "Surface", "key": "SrfLanded", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh", "techs": "001000"}
+        ]
+    },
+    "Kerbin": {
+        "Space center": [
+            {"name": "Space center", "key": "SrfLandedKSC", "techs": "111111"},
+            {"name": "Launch pad", "key": "SrfLandedLaunchPad", "techs": "111111"},
+            {"name": "Runway", "key": "SrfLandedRunway", "techs": "111111"}
+        ],
+        "Grasslands": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
+            {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "Shores": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
+            {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "Mountains": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
+            {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "Highlands": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
+            {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "Desert": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
+            {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "Water": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
+            {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "Badlands": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
+            {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "Tundra": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
+            {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "IceCaps": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
+            {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ]
+    },
+    "Mun": {
+        "Midlands": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
+        ],
+        "Midland Crater": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
+        ],
+        "Highlands": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
+        ],
+        "Highland Crater": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
+        ],
+        "Canyons": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
+        ],
+        "Northern Basin": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
+        ],
+        "East Crater": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
+        ],
+        "Northwest Crater": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
+        ],
+        "Southwest Crater": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
+        ],
+        "Farside Crater": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
+        ],
+        "Twin Craters": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
+        ],
+        "East Farside Crater": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
+        ],
+        "Polar Crater": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
+        ],
+        "Poles": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
+        ],
+        "Polar Lowlands": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
+        ]
+    },
+    "Minmus": {
+        "Highlands": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "Midlands": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "Lowlands": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "Slopes": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "Poles": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "Great Flats": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "Greater Flats": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "Flats": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ],
+        "Lesser Flats": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
+        ]
+    },
+    "Duna": {
+        "Universal": [
+            {"name": "Surface", "key": "SrfLanded", "techs": "111111"},
+            {"name": "Lower Atmosphere", "key": "XXX", "techs": "110010"},
+            {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
+            {"name": "Low Space", "key": "InSpaceLow", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh", "techs": "001000"}
+        ]
+    },
+    "Ike": {
+        "Universal": [
+            {"name": "Surface", "key": "SrfLanded", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh", "techs": "001000"}
+        ]
+    },
+    "Dres": {
+        "Universal": [
+            {"name": "Surface", "key": "SrfLanded", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh", "techs": "001000"}
+        ]
+    },
+    "Jool": {
+        "Universal": [
+            {"name": "Lower Atmosphere", "key": "XXX", "techs": "111010"},
+            {"name": "Upper Atmosphere", "key": "XXX", "techs": "111010"},
+            {"name": "Low Space", "key": "InSpaceLow", "techs": "000100"},
+            {"name": "High Space", "key": "InSpaceHigh", "techs": "000100"}
+        ]
+    },
+    "Laythe": {
+        "Universal": [
+            {"name": "Lower Atmosphere", "key": "XXX", "techs": "110010"},
+            {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
+            {"name": "Low Space", "key": "InSpaceLow", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh", "techs": "001000"}
+        ],
+        "Land": [
+            {"name": "Surface", "key": "SrfLanded", "techs": "111111"}
+        ],
+        "Ocean": [
+            {"name": "Surface", "key": "SrfLanded%", "techs": "111111"}
+        ]
+    },
+    "Vall": {
+        "Universal": [
+            {"name": "Surface", "key": "SrfLanded", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh", "techs": "001000"}
+        ]
+    },
+    "Tylo": {
+        "Universal": [
+            {"name": "Surface", "key": "SrfLanded", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh", "techs": "001000"}
+        ]
+    },
+    "Bop": {
+        "Universal": [
+            {"name": "Surface", "key": "SrfLanded", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh", "techs": "001000"}
+        ]
+    },
+    "Pol": {
+        "Universal": [
+            {"name": "Surface", "key": "SrfLanded", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh", "techs": "001000"}
+        ]
+    },
+    "Eeloo": {
+        "Universal": [
+            {"name": "Surface", "key": "SrfLanded", "techs": "101101"},
+            {"name": "Low Space", "key": "InSpaceLow", "techs": "001000"},
+            {"name": "High Space", "key": "InSpaceHigh", "techs": "001000"}
+        ]
+    }
+}

@@ -11,3 +11,5 @@
 /composer.phar
 /.idea
 *.php~
+/app/uploads/
+!app/uploads/.gitkeep

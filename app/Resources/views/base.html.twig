@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+<head>
+    <meta charset="UTF-8" />
+    <title>KSP Science - Table</title>
+    
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="{{ asset('bundles/kspscience/css/science.css') }}" rel="stylesheet" />
+</head>
+<body>
+    {#
+    {% block flashes %}
+        {% if app.session.flashbag.peekAll|length > 0 %}
+        <div class="row">
+            <div class="col-sm-12">
+            {{ session_flash() }}
+            </div>
+        </div>
+        {% endif %}
+    {% endblock flashes %}
+    #}
+
+    <div class="container-fluid">
+        {% block content %}{% endblock %}
+    </div>
+    
+    {% block script %}
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="{{ asset('bundles/kspscience/js/science.js') }}"></script>
+    {% endblock %}
+</body>
 </html>

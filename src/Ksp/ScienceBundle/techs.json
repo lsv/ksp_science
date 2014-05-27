@@ -1,0 +1,12 @@
+[
+    {"name": "Crew Report",         "key": "crewReport"},
+    {"name": "EVA Report",          "key": "evaReport"},
+    {"name": "Mystery Goo",         "key": "mysteryGoo"},
+    {"name": "Materials Bay",       "key": "mobileMaterialsLab"},
+    {"name": "Thermometer scan",    "key": "temperatureScan"},
+    {"name": "Barometer scan",      "key": "barometerScan"},
+    {"name": "Gravity scan",        "key": "XX1"},
+    {"name": "Seismic scan",        "key": "XX2"},
+    {"name": "Atmospheric scan",    "key": "XX3"},
+    {"name": "Surface sample",      "key": "surfaceSample"}
+]

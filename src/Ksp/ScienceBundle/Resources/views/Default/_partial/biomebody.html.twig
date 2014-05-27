@@ -1,0 +1,12 @@
+{% for biome in biomes %}
+    <tr>
+        <td>{{ biome.name }}</td>
+        {% for t in biome.realtechs %}
+            {% if t.avail %}
+                <td>{% include 'KspScienceBundle:Default/_partial:science.html.twig' with {"biome": biome, "tech": t.name, "planet": planet, "place": place} %}</td>
+            {% else %}
+                <td class="danger">&nbsp;</td>
+            {% endif %}
+        {% endfor %}
+    </tr>
+{% endfor %}
