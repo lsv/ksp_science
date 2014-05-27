@@ -104,12 +104,16 @@
         ]
     },
     "Mun": {
+        "Universal": [
+            {"name": "Low Space", "key": "InSpaceLow", "techs": "101000"},
+            {"name": "High Space", "key": "InSpaceHigh", "techs": "101000"}
+        ],
         "Midlands": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
         ],
-        "Midland Crater": [
+        "MidlandCrater": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
@@ -119,7 +123,7 @@
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
         ],
-        "Highland Crater": [
+        "HighlandCrater": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
@@ -129,42 +133,42 @@
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
         ],
-        "Northern Basin": [
+        "NorthernBasin": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
         ],
-        "East Crater": [
+        "EastCrater": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
         ],
-        "Northwest Crater": [
+        "NorthwestCrater": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
         ],
-        "Southwest Crater": [
+        "SouthwestCrater": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
         ],
-        "Farside Crater": [
+        "FarsideCrater": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
         ],
-        "Twin Craters": [
+        "TwinCraters": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
         ],
-        "East Farside Crater": [
+        "EastFarsideCrater": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
         ],
-        "Polar Crater": [
+        "PolarCrater": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
@@ -174,7 +178,7 @@
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
         ],
-        "Polar Lowlands": [
+        "PolarLowlands": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "101000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "101000"}
@@ -206,12 +210,12 @@
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
         ],
-        "Great Flats": [
+        "GreatFlats": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
         ],
-        "Greater Flats": [
+        "GreaterFlats": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
@@ -221,7 +225,7 @@
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
         ],
-        "Lesser Flats": [
+        "LesserFlats": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "101101"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
