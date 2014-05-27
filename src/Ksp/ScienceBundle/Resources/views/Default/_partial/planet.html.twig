@@ -1,5 +1,5 @@
 {% for planet, places in planets %}
-    <div class="panel panel-info" id="planet{{ planet }}">
+    <section class="panel panel-info" id="planet{{ planet }}">
         <div class="panel-heading">
             <h2 class="panel-title">{{ planet }}</h2>
         </div>
@@ -10,12 +10,12 @@
                     <h3>{{ placename }}</h3>
                 </div>
                 
-                <table class="table table-striped">
+                <table class="table table-striped table-condensed">
                     <thead>{% include 'KspScienceBundle:Default/_partial:techheader.html.twig' %}</thead>
                     <tbody>{% include 'KspScienceBundle:Default/_partial:biomebody.html.twig' with {"biomes": biomes, "planet": planet, "place": placename} %}</tbody>
                 </table>
                 
             {% endfor %}
         </div>
-    </div>
+    </section>
 {% endfor %}

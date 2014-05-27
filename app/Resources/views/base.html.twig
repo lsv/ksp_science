@@ -20,9 +20,15 @@
     {% endblock flashes %}
     #}
 
-    <div class="container-fluid">
-        {% block content %}{% endblock %}
+    {% block content %}{% endblock %}
+    
+    <!-- TOP RIGHT RIBBON: START COPYING HERE -->
+    <div class="github-fork-ribbon-wrapper right">
+        <div class="github-fork-ribbon">
+            <a href="https://github.com/lsv20/ksp_science">Fork me on GitHub</a>
+        </div>
     </div>
+    <!-- TOP RIGHT RIBBON: END COPYING HERE -->
     
     {% block script %}
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
