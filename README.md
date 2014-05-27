@@ -3,6 +3,11 @@
 
 Upload your save file and see what science you maybe totally forgot about?
 
+Requirements
+============
+
+See [Symfony requirements](http://symfony.com/doc/current/reference/requirements.html)
+
 Install
 =======
 
