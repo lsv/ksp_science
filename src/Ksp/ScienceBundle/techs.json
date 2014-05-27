@@ -5,8 +5,8 @@
     {"name": "Materials Bay",       "key": "mobileMaterialsLab"},
     {"name": "Thermometer scan",    "key": "temperatureScan"},
     {"name": "Barometer scan",      "key": "barometerScan"},
-    {"name": "Gravity scan",        "key": "XX1"},
-    {"name": "Seismic scan",        "key": "XX2"},
-    {"name": "Atmospheric scan",    "key": "XX3"},
+    {"name": "Gravity scan",        "key": "gravityScan"},
+    {"name": "Seismic scan",        "key": "seismicScan"},
+    {"name": "Atmospheric scan",    "key": "atmosphereAnalysis"},
     {"name": "Surface sample",      "key": "surfaceSample"}
 ]

@@ -22,10 +22,6 @@ class Parser
             throw new \Exception('Wrong file extension');
         }
         
-        if (! $this->file->getClientOriginalName() === 'persistent.sfs') {
-            throw new \Exception('Wrong file name');
-        }
-        
         $data = file_get_contents($this->file->getRealPath());
         if (strpos($data, 'GAME') !== 0) {
             throw new \Exception('Wrong data');
@@ -42,13 +38,7 @@ class Parser
         if ($xml === false) {
             return array();
         }
-        
-        /*
-        header('Content-Type: text/xml');
-        echo $xml->asXML();
-        exit;
-        */
-        
+               
         $output = array();        
         foreach($xml->GAME->SCENARIO as $scenario) {
             if ($this->__($scenario->name) !== 'ResearchAndDevelopment') {

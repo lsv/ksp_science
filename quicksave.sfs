@@ -1,0 +1,2660 @@
+		Science
+		{
+			id = crewReport@KerbinSrfLandedLaunchPad
+			title = Crew Report from LaunchPad
+			dsc = 1
+			scv = 0
+			sbv = 0.3
+			sci = 1.5
+			cap = 1.5
+		}
+		Science
+		{
+			id = surfaceSample@KerbinSrfLandedLaunchPad
+			title = Surface Sample from LaunchPad
+			dsc = 1
+			scv = 0.25
+			sbv = 0.3
+			sci = 9
+			cap = 12
+		}
+		Science
+		{
+			id = evaReport@KerbinSrfLandedLaunchPad
+			title = EVA Report from LaunchPad
+			dsc = 1
+			scv = 0
+			sbv = 0.3
+			sci = 2.4
+			cap = 2.4
+		}
+		Science
+		{
+			id = surfaceSample@KerbinSrfLandedKSC
+			title = Surface Sample from KSC
+			dsc = 1
+			scv = 0.25
+			sbv = 0.3
+			sci = 9
+			cap = 12
+		}
+		Science
+		{
+			id = evaReport@KerbinSrfLandedKSC
+			title = EVA Report from KSC
+			dsc = 1
+			scv = 0
+			sbv = 0.3
+			sci = 2.4
+			cap = 2.4
+		}
+		Science
+		{
+			id = surfaceSample@KerbinSrfLandedRunway
+			title = Surface Sample from Runway
+			dsc = 1
+			scv = 0.25
+			sbv = 0.3
+			sci = 9
+			cap = 12
+		}
+		Science
+		{
+			id = evaReport@KerbinSrfLandedRunway
+			title = EVA Report from Runway
+			dsc = 1
+			scv = 0
+			sbv = 0.3
+			sci = 2.4
+			cap = 2.4
+		}
+		Science
+		{
+			id = mysteryGoo@KerbinFlyingLow
+			title = Mystery Goo™ Observation while flying at Kerbin
+			dsc = 1
+			scv = 0.2307692
+			sbv = 0.7
+			sci = 7
+			cap = 9.099999
+		}
+		Science
+		{
+			id = mysteryGoo@KerbinSrfLandedMountains
+			title = Mystery Goo™ Observation from Kerbin's Mountains
+			dsc = 1
+			scv = 0.2307692
+			sbv = 0.3
+			sci = 3
+			cap = 3.9
+		}
+		Science
+		{
+			id = surfaceSample@KerbinSrfLandedMountains
+			title = Surface Sample from Kerbin's Mountains
+			dsc = 1
+			scv = 0.25
+			sbv = 0.3
+			sci = 9
+			cap = 12
+		}
+		Science
+		{
+			id = evaReport@KerbinSrfLandedMountains
+			title = EVA Report from Kerbin's Mountains
+			dsc = 1
+			scv = 0
+			sbv = 0.3
+			sci = 2.4
+			cap = 2.4
+		}
+		Science
+		{
+			id = crewReport@KerbinSrfLandedMountains
+			title = Crew Report from Kerbin's Mountains
+			dsc = 1
+			scv = 0
+			sbv = 0.3
+			sci = 1.5
+			cap = 1.5
+		}
+		Science
+		{
+			id = recovery@KerbinFlew
+			title = Recovery of a vessel that survived a flight.
+			dsc = 1
+			scv = 0.000771602
+			sbv = 5
+			sci = 5.99537
+			cap = 6
+		}
+		Science
+		{
+			id = mysteryGoo@KerbinInSpaceLow
+			title = Mystery Goo™ Observation while in space near Kerbin
+			dsc = 1
+			scv = 0.05325449
+			sbv = 1
+			sci = 12.30769
+			cap = 13
+		}
+		Science
+		{
+			id = crewReport@KerbinInSpaceLow
+			title = Crew Report while in space near Kerbin
+			dsc = 1
+			scv = 0
+			sbv = 1
+			sci = 5
+			cap = 5
+		}
+		Science
+		{
+			id = evaReport@KerbinInSpaceLowHighlands
+			title = EVA Report from space just above Kerbin's Highlands
+			dsc = 1
+			scv = 0
+			sbv = 1
+			sci = 8
+			cap = 8
+		}
+		Science
+		{
+			id = evaReport@KerbinInSpaceLowShores
+			title = EVA Report from space just above Kerbin's Shores
+			dsc = 1
+			scv = 0
+			sbv = 1
+			sci = 8
+			cap = 8
+		}
+		Science
+		{
+			id = evaReport@KerbinInSpaceLowWater
+			title = EVA Report from space just above Kerbin's Water
+			dsc = 1
+			scv = 0
+			sbv = 1
+			sci = 8
+			cap = 8
+		}
+		Science
+		{
+			id = evaReport@KerbinInSpaceLowGrasslands
+			title = EVA Report from space just above Kerbin's Grasslands
+			dsc = 1
+			scv = 0
+			sbv = 1
+			sci = 8
+			cap = 8
+		}
+		Science
+		{
+			id = evaReport@KerbinInSpaceLowMountains
+			title = EVA Report from space just above Kerbin's Mountains
+			dsc = 1
+			scv = 0
+			sbv = 1
+			sci = 8
+			cap = 8
+		}
+		Science
+		{
+			id = evaReport@KerbinInSpaceLowBadlands
+			title = EVA Report from space just above Kerbin's Badlands
+			dsc = 1
+			scv = 0
+			sbv = 1
+			sci = 8
+			cap = 8
+		}
+		Science
+		{
+			id = evaReport@KerbinInSpaceLowDeserts
+			title = EVA Report from space just above Kerbin's Deserts
+			dsc = 1
+			scv = 0
+			sbv = 1
+			sci = 8
+			cap = 8
+		}
+		Science
+		{
+			id = evaReport@KerbinFlyingHigh
+			title = EVA Report from Kerbin's upper atmosphere
+			dsc = 1
+			scv = 0
+			sbv = 0.7
+			sci = 5.6
+			cap = 5.6
+		}
+		Science
+		{
+			id = mysteryGoo@KerbinSrfLandedIceCaps
+			title = Mystery Goo™ Observation from Kerbin's Ice Caps
+			dsc = 1
+			scv = 0.2307692
+			sbv = 0.3
+			sci = 3
+			cap = 3.9
+		}
+		Science
+		{
+			id = surfaceSample@KerbinSrfLandedIceCaps
+			title = Surface Sample from Kerbin's Ice Caps
+			dsc = 1
+			scv = 0.25
+			sbv = 0.3
+			sci = 9
+			cap = 12
+		}
+		Science
+		{
+			id = evaReport@KerbinSrfLandedIceCaps
+			title = EVA Report from Kerbin's Ice Caps
+			dsc = 1
+			scv = 0
+			sbv = 0.3
+			sci = 2.4
+			cap = 2.4
+		}
+		Science
+		{
+			id = recovery@KerbinOrbited
+			title = Recovery of a vessel returned from Kerbin orbit
+			dsc = 1
+			scv = 3.178914E-07
+			sbv = 10
+			sci = 12
+			cap = 12
+		}
+		Science
+		{
+			id = mysteryGoo@MunInSpaceHigh
+			title = Mystery Goo™ Observation while in space high over the Mun
+			dsc = 1
+			scv = 0.05325444
+			sbv = 3
+			sci = 36.92308
+			cap = 39
+		}
+		Science
+		{
+			id = evaReport@MunInSpaceHigh
+			title = EVA Report while in space high over the Mun
+			dsc = 1
+			scv = 0
+			sbv = 3
+			sci = 24
+			cap = 24
+		}
+		Science
+		{
+			id = evaReport@MunInSpaceLowMidlands
+			title = EVA Report from space just above the Mun's Midlands
+			dsc = 1
+			scv = 0
+			sbv = 3
+			sci = 24
+			cap = 24
+		}
+		Science
+		{
+			id = mysteryGoo@MunInSpaceLow
+			title = Mystery Goo™ Observation while in space near the Mun
+			dsc = 1
+			scv = 0.05325444
+			sbv = 3
+			sci = 36.92308
+			cap = 39
+		}
+		Science
+		{
+			id = evaReport@MunInSpaceLowHighlands
+			title = EVA Report from space just above the Mun's Highlands
+			dsc = 1
+			scv = 0
+			sbv = 3
+			sci = 24
+			cap = 24
+		}
+		Science
+		{
+			id = evaReport@MunInSpaceLowHighlandCraters
+			title = EVA Report from space just above the Mun's Highland Craters
+			dsc = 1
+			scv = 0
+			sbv = 3
+			sci = 24
+			cap = 24
+		}
+		Science
+		{
+			id = crewReport@MunInSpaceLow
+			title = Crew Report while in space near the Mun
+			dsc = 1
+			scv = 0
+			sbv = 3
+			sci = 15
+			cap = 15
+		}
+		Science
+		{
+			id = evaReport@KerbinInSpaceHigh
+			title = EVA Report while in space high over Kerbin
+			dsc = 1
+			scv = 0
+			sbv = 1
+			sci = 8
+			cap = 8
+		}
+		Science
+		{
+			id = surfaceSample@KerbinSrfLandedDeserts
+			title = Surface Sample from Kerbin's Deserts
+			dsc = 1
+			scv = 0.015625
+			sbv = 0.3
+			sci = 11.8125
+			cap = 12
+		}
+		Science
+		{
+			id = evaReport@KerbinSrfLandedDeserts
+			title = EVA Report from Kerbin's Deserts
+			dsc = 1
+			scv = 0
+			sbv = 0.3
+			sci = 2.4
+			cap = 2.4
+		}
+		Science
+		{
+			id = recovery@MunFlewBy
+			title = Recovery of a vessel returned from a fly-by of the Mun
+			dsc = 1
+			scv = 0.1666667
+			sbv = 12
+			sci = 12
+			cap = 14.4
+		}
+		Science
+		{
+			id = mobileMaterialsLab@MunInSpaceHigh
+			title = Materials Study while in space high over the Mun
+			dsc = 1
+			scv = 0.21875
+			sbv = 3
+			sci = 75
+			cap = 96
+		}
+		Science
+		{
+			id = crewReport@MunInSpaceHigh
+			title = Crew Report while in space high over the Mun
+			dsc = 1
+			scv = 0
+			sbv = 3
+			sci = 15
+			cap = 15
+		}
+		Science
+		{
+			id = evaReport@MunInSpaceLowEastFarsideCrater
+			title = EVA Report from space just above the Mun's East Farside Crater
+			dsc = 1
+			scv = 0
+			sbv = 3
+			sci = 24
+			cap = 24
+		}
+		Science
+		{
+			id = evaReport@MunInSpaceLowNorthwestCrater
+			title = EVA Report from space just above the Mun's Northwest Crater
+			dsc = 1
+			scv = 0
+			sbv = 3
+			sci = 24
+			cap = 24
+		}
+		Science
+		{
+			id = mobileMaterialsLab@MunSrfLandedHighlands
+			title = Materials Study from the Mun's Highlands
+			dsc = 1
+			scv = 1
+			sbv = 4
+			sci = 0
+			cap = 128
+		}
+		Science
+		{
+			id = mysteryGoo@MunSrfLandedHighlands
+			title = Mystery Goo™ Observation from the Mun's Highlands
+			dsc = 1
+			scv = 0.05325442
+			sbv = 4
+			sci = 49.23077
+			cap = 52
+		}
+		Science
+		{
+			id = crewReport@MunSrfLandedHighlands
+			title = Crew Report from the Mun's Highlands
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 20
+			cap = 20
+		}
+		Science
+		{
+			id = evaReport@MunSrfLandedHighlands
+			title = EVA Report from the Mun's Highlands
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = surfaceSample@MunSrfLandedHighlands
+			title = Surface Sample from the Mun's Highlands
+			dsc = 1
+			scv = 0.25
+			sbv = 4
+			sci = 120
+			cap = 160
+		}
+		Science
+		{
+			id = recovery@MunSurfaced
+			title = Recovery of a vessel returned from the surface of the Mun
+			dsc = 1
+			scv = 0.02777778
+			sbv = 30
+			sci = 35
+			cap = 36
+		}
+		Science
+		{
+			id = mysteryGoo@MunSrfLandedMidlands
+			title = Mystery Goo™ Observation from the Mun's Midlands
+			dsc = 1
+			scv = 0.05325442
+			sbv = 4
+			sci = 49.23077
+			cap = 52
+		}
+		Science
+		{
+			id = surfaceSample@MunSrfLandedMidlands
+			title = Surface Sample from the Mun's Midlands
+			dsc = 1
+			scv = 0.25
+			sbv = 4
+			sci = 120
+			cap = 160
+		}
+		Science
+		{
+			id = evaReport@MunSrfLandedMidlands
+			title = EVA Report from the Mun's Midlands
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = crewReport@MunSrfLandedMidlands
+			title = Crew Report from the Mun's Midlands
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 20
+			cap = 20
+		}
+		Science
+		{
+			id = evaReport@KerbinSrfLandedGrasslands
+			title = EVA Report from Kerbin's Grasslands
+			dsc = 1
+			scv = 0
+			sbv = 0.3
+			sci = 2.4
+			cap = 2.4
+		}
+		Science
+		{
+			id = surfaceSample@KerbinSrfLandedGrasslands
+			title = Surface Sample from Kerbin's Grasslands
+			dsc = 1
+			scv = 0.25
+			sbv = 0.3
+			sci = 9
+			cap = 12
+		}
+		Science
+		{
+			id = mysteryGoo@MinmusInSpaceLow
+			title = Mystery Goo™ Observation while in space near Minmus
+			dsc = 1
+			scv = 0.2307692
+			sbv = 4
+			sci = 40
+			cap = 52
+		}
+		Science
+		{
+			id = mysteryGoo@MinmusSrfLandedMidlands
+			title = Mystery Goo™ Observation from Minmus's Midlands
+			dsc = 1
+			scv = 0.2307692
+			sbv = 5
+			sci = 50
+			cap = 65
+		}
+		Science
+		{
+			id = crewReport@MinmusSrfLandedMidlands
+			title = Crew Report from Minmus's Midlands
+			dsc = 1
+			scv = 0
+			sbv = 5
+			sci = 25
+			cap = 25
+		}
+		Science
+		{
+			id = surfaceSample@MinmusSrfLandedMidlands
+			title = Surface Sample from Minmus's Midlands
+			dsc = 1
+			scv = 0.25
+			sbv = 5
+			sci = 150
+			cap = 200
+		}
+		Science
+		{
+			id = evaReport@MinmusSrfLandedMidlands
+			title = EVA Report from Minmus's Midlands
+			dsc = 1
+			scv = 0
+			sbv = 5
+			sci = 40
+			cap = 40
+		}
+		Science
+		{
+			id = evaReport@MinmusInSpaceLowSlopes
+			title = EVA Report from space just above Minmus's Slopes
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = evaReport@MinmusSrfLandedSlopes
+			title = EVA Report from Minmus's Slopes
+			dsc = 1
+			scv = 0
+			sbv = 5
+			sci = 40
+			cap = 40
+		}
+		Science
+		{
+			id = surfaceSample@MinmusSrfLandedSlopes
+			title = Surface Sample from Minmus's Slopes
+			dsc = 1
+			scv = 0.0625
+			sbv = 5
+			sci = 187.5
+			cap = 200
+		}
+		Science
+		{
+			id = surfaceSample@MinmusSrfLandedLesserFlats
+			title = Surface Sample from Minmus's Lesser Flats
+			dsc = 1
+			scv = 0.25
+			sbv = 5
+			sci = 150
+			cap = 200
+		}
+		Science
+		{
+			id = evaReport@MinmusSrfLandedLesserFlats
+			title = EVA Report from Minmus's Lesser Flats
+			dsc = 1
+			scv = 0
+			sbv = 5
+			sci = 40
+			cap = 40
+		}
+		Science
+		{
+			id = evaReport@MinmusInSpaceLowLowlands
+			title = EVA Report from space just above Minmus's Lowlands
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = evaReport@MinmusInSpaceLowMidlands
+			title = EVA Report from space just above Minmus's Midlands
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = surfaceSample@MinmusSrfLandedLowlands
+			title = Surface Sample from Minmus's Lowlands
+			dsc = 1
+			scv = 0.25
+			sbv = 5
+			sci = 150
+			cap = 200
+		}
+		Science
+		{
+			id = evaReport@MinmusInSpaceLowFlats
+			title = EVA Report from space just above Minmus's Flats
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = evaReport@MinmusInSpaceLowHighlands
+			title = EVA Report from space just above Minmus's Highlands
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = evaReport@MinmusInSpaceLowLesserFlats
+			title = EVA Report from space just above Minmus's Lesser Flats
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = recovery@MinmusSurfaced
+			title = Recovery of a vessel returned from the surface of Minmus
+			dsc = 1
+			scv = 0.1666667
+			sbv = 37.5
+			sci = 37.5
+			cap = 45
+		}
+		Science
+		{
+			id = mobileMaterialsLab@KerbinInSpaceLow
+			title = Materials Study while in space near Kerbin
+			dsc = 1
+			scv = 0.21875
+			sbv = 1
+			sci = 25
+			cap = 32
+		}
+		Science
+		{
+			id = surfaceSample@KerbinSrfLandedShores
+			title = Surface Sample from Kerbin's Shores
+			dsc = 1
+			scv = 0.25
+			sbv = 0.3
+			sci = 9
+			cap = 12
+		}
+		Science
+		{
+			id = evaReport@KerbinSrfLandedShores
+			title = EVA Report from Kerbin's Shores
+			dsc = 1
+			scv = 0
+			sbv = 0.3
+			sci = 2.4
+			cap = 2.4
+		}
+		Science
+		{
+			id = surfaceSample@KerbinSrfSplashedShores
+			title = Surface Sample from Kerbin's Shores
+			dsc = 1
+			scv = 0.25
+			sbv = 0.4
+			sci = 12
+			cap = 16
+		}
+		Science
+		{
+			id = evaReport@KerbinSrfSplashedShores
+			title = EVA Report from Kerbin's Shores
+			dsc = 1
+			scv = 0
+			sbv = 0.4
+			sci = 3.2
+			cap = 3.2
+		}
+		Science
+		{
+			id = mobileMaterialsLab@JoolInSpaceLow
+			title = Materials Study while in space near Jool
+			dsc = 1
+			scv = 0.84375
+			sbv = 7
+			sci = 35
+			cap = 224
+		}
+		Science
+		{
+			id = mysteryGoo@JoolInSpaceLow
+			title = Mystery Goo™ Observation while in space near Jool
+			dsc = 1
+			scv = 0.7484615
+			sbv = 7
+			sci = 22.89
+			cap = 91
+		}
+		Science
+		{
+			id = temperatureScan@JoolInSpaceLow
+			title = Temperature Scan while in space near Jool
+			dsc = 1
+			scv = 0.5
+			sbv = 7
+			sci = 28
+			cap = 56
+		}
+		Science
+		{
+			id = surfaceSample@MinmusSrfLandedGreaterFlats
+			title = Surface Sample from Minmus's Greater Flats
+			dsc = 1
+			scv = 0.25
+			sbv = 5
+			sci = 150
+			cap = 200
+		}
+		Science
+		{
+			id = evaReport@MinmusSrfLandedGreaterFlats
+			title = EVA Report from Minmus's Greater Flats
+			dsc = 1
+			scv = 0
+			sbv = 5
+			sci = 40
+			cap = 40
+		}
+		Science
+		{
+			id = evaReport@MinmusInSpaceLowGreaterFlats
+			title = EVA Report from space just above Minmus's Greater Flats
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = evaReport@MinmusInSpaceHigh
+			title = EVA Report while in space high over Minmus
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = mysteryGoo@MinmusInSpaceHigh
+			title = Mystery Goo™ Observation while in space high over Minmus
+			dsc = 1
+			scv = 0.05325442
+			sbv = 4
+			sci = 49.23077
+			cap = 52
+		}
+		Science
+		{
+			id = mobileMaterialsLab@MinmusInSpaceHigh
+			title = Materials Study while in space high over Minmus
+			dsc = 1
+			scv = 0.21875
+			sbv = 4
+			sci = 100
+			cap = 128
+		}
+		Science
+		{
+			id = recovery@MinmusOrbited
+			title = Recovery of a vessel returned from orbit around Minmus
+			dsc = 1
+			scv = 0.1666667
+			sbv = 20
+			sci = 20
+			cap = 24
+		}
+		Science
+		{
+			id = mysteryGoo@KerbinSrfLandedLaunchPad
+			title = Mystery Goo™ Observation from LaunchPad
+			dsc = 1
+			scv = 0.01228944
+			sbv = 0.3
+			sci = 3.852071
+			cap = 3.9
+		}
+		Science
+		{
+			id = barometerScan@KerbinSrfLandedLaunchPad
+			title = Atmospheric Pressure Scan from LaunchPad
+			dsc = 1
+			scv = 0
+			sbv = 0.3
+			sci = 3.6
+			cap = 3.6
+		}
+		Science
+		{
+			id = mobileMaterialsLab@KerbinSrfLandedLaunchPad
+			title = Materials Study from LaunchPad
+			dsc = 1
+			scv = 0.21875
+			sbv = 0.3
+			sci = 7.5
+			cap = 9.6
+		}
+		Science
+		{
+			id = temperatureScan@KerbinSrfLandedLaunchPad
+			title = Temperature Scan from LaunchPad
+			dsc = 1
+			scv = 0
+			sbv = 0.3
+			sci = 2.4
+			cap = 2.4
+		}
+		Science
+		{
+			id = mysteryGoo@EelooInSpaceHigh
+			title = Mystery Goo™ Observation while in space high over Eeloo
+			dsc = 1
+			scv = 0.7692308
+			sbv = 12
+			sci = 36
+			cap = 156
+		}
+		Science
+		{
+			id = mobileMaterialsLab@EelooInSpaceHigh
+			title = Materials Study while in space high over Eeloo
+			dsc = 1
+			scv = 0.84375
+			sbv = 12
+			sci = 60
+			cap = 384
+		}
+		Science
+		{
+			id = mysteryGoo@EelooInSpaceLow
+			title = Mystery Goo™ Observation while in space near Eeloo
+			dsc = 1
+			scv = 0.7484615
+			sbv = 12
+			sci = 39.24
+			cap = 156
+		}
+		Science
+		{
+			id = mysteryGoo@EelooSrfLanded
+			title = Mystery Goo™ Observation from Eeloo's surface
+			dsc = 1
+			scv = 0.7484615
+			sbv = 15
+			sci = 49.05
+			cap = 195
+		}
+		Science
+		{
+			id = mobileMaterialsLab@EelooSrfLanded
+			title = Materials Study from Eeloo's surface
+			dsc = 1
+			scv = 0.835
+			sbv = 15
+			sci = 79.2
+			cap = 480
+		}
+		Science
+		{
+			id = mobileMaterialsLab@EelooInSpaceLow
+			title = Materials Study while in space near Eeloo
+			dsc = 1
+			scv = 0.84375
+			sbv = 12
+			sci = 60
+			cap = 384
+		}
+		Science
+		{
+			id = mysteryGoo@MohoInSpaceHigh
+			title = Mystery Goo™ Observation while in space high over Moho
+			dsc = 1
+			scv = 0.7484615
+			sbv = 8
+			sci = 26.16
+			cap = 104
+		}
+		Science
+		{
+			id = mobileMaterialsLab@MohoInSpaceHigh
+			title = Materials Study while in space high over Moho
+			dsc = 1
+			scv = 0.84375
+			sbv = 8
+			sci = 40
+			cap = 256
+		}
+		Science
+		{
+			id = mobileMaterialsLab@MohoInSpaceLow
+			title = Materials Study while in space near Moho
+			dsc = 1
+			scv = 0.84375
+			sbv = 8
+			sci = 40
+			cap = 256
+		}
+		Science
+		{
+			id = mysteryGoo@MohoInSpaceLow
+			title = Mystery Goo™ Observation while in space near Moho
+			dsc = 1
+			scv = 0.7484615
+			sbv = 8
+			sci = 26.16
+			cap = 104
+		}
+		Science
+		{
+			id = mysteryGoo@MohoSrfLanded
+			title = Mystery Goo™ Observation from Moho's surface
+			dsc = 1
+			scv = 0.7484615
+			sbv = 10
+			sci = 32.7
+			cap = 130
+		}
+		Science
+		{
+			id = mobileMaterialsLab@MohoSrfLanded
+			title = Materials Study from Moho's surface
+			dsc = 1
+			scv = 0.84375
+			sbv = 10
+			sci = 50
+			cap = 320
+		}
+		Science
+		{
+			id = mysteryGoo@SunInSpaceHigh
+			title = Mystery Goo™ Observation while in space high over the Sun
+			dsc = 1
+			scv = 0.7807692
+			sbv = 11
+			sci = 31.35
+			cap = 143
+		}
+		Science
+		{
+			id = mobileMaterialsLab@SunInSpaceHigh
+			title = Materials Study while in space high over the Sun
+			dsc = 1
+			scv = 0.875
+			sbv = 11
+			sci = 44
+			cap = 352
+		}
+		Science
+		{
+			id = mysteryGoo@SunInSpaceLow
+			title = Mystery Goo™ Observation while in space near the Sun
+			dsc = 1
+			scv = 0.7484615
+			sbv = 11
+			sci = 35.97
+			cap = 143
+		}
+		Science
+		{
+			id = mobileMaterialsLab@SunInSpaceLow
+			title = Materials Study while in space near the Sun
+			dsc = 1
+			scv = 0.84375
+			sbv = 11
+			sci = 55
+			cap = 352
+		}
+		Science
+		{
+			id = temperatureScan@SunInSpaceLow
+			title = Temperature Scan while in space near the Sun
+			dsc = 1
+			scv = 0.5
+			sbv = 11
+			sci = 44
+			cap = 88
+		}
+		Science
+		{
+			id = crewReport@DunaSrfLanded
+			title = Crew Report from Duna's surface
+			dsc = 1
+			scv = 0
+			sbv = 8
+			sci = 40
+			cap = 40
+		}
+		Science
+		{
+			id = mobileMaterialsLab@EveInSpaceHigh
+			title = Materials Study while in space high over Eve
+			dsc = 1
+			scv = 0.84375
+			sbv = 7
+			sci = 35
+			cap = 224
+		}
+		Science
+		{
+			id = mysteryGoo@EveInSpaceHigh
+			title = Mystery Goo™ Observation while in space high over Eve
+			dsc = 1
+			scv = 0.7692308
+			sbv = 7
+			sci = 21
+			cap = 91
+		}
+		Science
+		{
+			id = temperatureScan@EveInSpaceLow
+			title = Temperature Scan while in space near Eve
+			dsc = 1
+			scv = 0.5
+			sbv = 7
+			sci = 28
+			cap = 56
+		}
+		Science
+		{
+			id = mysteryGoo@EveInSpaceLow
+			title = Mystery Goo™ Observation while in space near Eve
+			dsc = 1
+			scv = 0.7484615
+			sbv = 7
+			sci = 22.89
+			cap = 91
+		}
+		Science
+		{
+			id = mobileMaterialsLab@EveInSpaceLow
+			title = Materials Study while in space near Eve
+			dsc = 1
+			scv = 0.84375
+			sbv = 7
+			sci = 35
+			cap = 224
+		}
+		Science
+		{
+			id = temperatureScan@EveFlyingHigh
+			title = Temperature Scan from Eve's upper atmosphere
+			dsc = 1
+			scv = 0.5
+			sbv = 6
+			sci = 24
+			cap = 48
+		}
+		Science
+		{
+			id = barometerScan@EveFlyingHigh
+			title = Atmospheric Pressure Scan from Eve's upper atmosphere
+			dsc = 1
+			scv = 0.5
+			sbv = 6
+			sci = 36
+			cap = 72
+		}
+		Science
+		{
+			id = mysteryGoo@EveFlyingLow
+			title = Mystery Goo™ Observation while flying at Eve
+			dsc = 1
+			scv = 0.7692308
+			sbv = 6
+			sci = 18
+			cap = 78
+		}
+		Science
+		{
+			id = mobileMaterialsLab@EveFlyingLow
+			title = Materials Study while flying at Eve
+			dsc = 1
+			scv = 0.84375
+			sbv = 6
+			sci = 30
+			cap = 192
+		}
+		Science
+		{
+			id = temperatureScan@EveFlyingLow
+			title = Temperature Scan while flying at Eve
+			dsc = 1
+			scv = 0.5
+			sbv = 6
+			sci = 24
+			cap = 48
+		}
+		Science
+		{
+			id = barometerScan@EveFlyingLow
+			title = Atmospheric Pressure Scan while flying at Eve
+			dsc = 1
+			scv = 0.5
+			sbv = 6
+			sci = 36
+			cap = 72
+		}
+		Science
+		{
+			id = mobileMaterialsLab@EveSrfLanded
+			title = Materials Study from Eve's surface
+			dsc = 1
+			scv = 0.84375
+			sbv = 8
+			sci = 40
+			cap = 256
+		}
+		Science
+		{
+			id = mysteryGoo@EveSrfLanded
+			title = Mystery Goo™ Observation from Eve's surface
+			dsc = 1
+			scv = 0.7692308
+			sbv = 8
+			sci = 24
+			cap = 104
+		}
+		Science
+		{
+			id = barometerScan@EveSrfLanded
+			title = Atmospheric Pressure Scan from Eve's surface
+			dsc = 1
+			scv = 0.5
+			sbv = 8
+			sci = 48
+			cap = 96
+		}
+		Science
+		{
+			id = temperatureScan@EveSrfLanded
+			title = Temperature Scan from Eve's surface
+			dsc = 1
+			scv = 0.5
+			sbv = 8
+			sci = 32
+			cap = 64
+		}
+		Science
+		{
+			id = evaReport@DunaSrfLanded
+			title = EVA Report from Duna's surface
+			dsc = 1
+			scv = 0
+			sbv = 8
+			sci = 64
+			cap = 64
+		}
+		Science
+		{
+			id = crewReport@DunaInSpaceLow
+			title = Crew Report while in space near Duna
+			dsc = 1
+			scv = 0
+			sbv = 7
+			sci = 35
+			cap = 35
+		}
+		Science
+		{
+			id = evaReport@DunaInSpaceLow
+			title = EVA Report while in space near Duna
+			dsc = 1
+			scv = 0
+			sbv = 7
+			sci = 56
+			cap = 56
+		}
+		Science
+		{
+			id = mobileMaterialsLab@DunaSrfLanded
+			title = Materials Study from Duna's surface
+			dsc = 1
+			scv = 0.21875
+			sbv = 8
+			sci = 200
+			cap = 256
+		}
+		Science
+		{
+			id = barometerScan@DunaSrfLanded
+			title = Atmospheric Pressure Scan from Duna's surface
+			dsc = 1
+			scv = 0
+			sbv = 8
+			sci = 96
+			cap = 96
+		}
+		Science
+		{
+			id = mysteryGoo@DunaSrfLanded
+			title = Mystery Goo™ Observation from Duna's surface
+			dsc = 1
+			scv = 0.2307692
+			sbv = 8
+			sci = 80
+			cap = 104
+		}
+		Science
+		{
+			id = temperatureScan@DunaSrfLanded
+			title = Temperature Scan from Duna's surface
+			dsc = 1
+			scv = 0
+			sbv = 8
+			sci = 64
+			cap = 64
+		}
+		Science
+		{
+			id = recovery@DunaOrbited
+			title = Recovery of a vessel returned from orbit around Duna
+			dsc = 1
+			scv = 0.1666667
+			sbv = 40
+			sci = 40
+			cap = 48
+		}
+		Science
+		{
+			id = mobileMaterialsLab@TyloInSpaceHigh
+			title = Materials Study while in space high over Tylo
+			dsc = 1
+			scv = 0.84375
+			sbv = 10
+			sci = 50
+			cap = 320
+		}
+		Science
+		{
+			id = mysteryGoo@TyloInSpaceHigh
+			title = Mystery Goo™ Observation while in space high over Tylo
+			dsc = 1
+			scv = 0.7692308
+			sbv = 10
+			sci = 30
+			cap = 130
+		}
+		Science
+		{
+			id = mobileMaterialsLab@TyloInSpaceLow
+			title = Materials Study while in space near Tylo
+			dsc = 1
+			scv = 0.84375
+			sbv = 10
+			sci = 50
+			cap = 320
+		}
+		Science
+		{
+			id = mysteryGoo@TyloInSpaceLow
+			title = Mystery Goo™ Observation while in space near Tylo
+			dsc = 1
+			scv = 0.7692308
+			sbv = 10
+			sci = 30
+			cap = 130
+		}
+		Science
+		{
+			id = temperatureScan@TyloInSpaceLow
+			title = Temperature Scan while in space near Tylo
+			dsc = 1
+			scv = 0.5
+			sbv = 10
+			sci = 40
+			cap = 80
+		}
+		Science
+		{
+			id = crewReport@KerbinInSpaceHigh
+			title = Crew Report while in space high over Kerbin
+			dsc = 1
+			scv = 0
+			sbv = 1
+			sci = 5
+			cap = 5
+		}
+		Science
+		{
+			id = asteroidSample@KerbinInSpaceHigh_PotatoRoid816790076
+			title = Sample from Jeb's Rock - Hands OFF!!! while in space high over Kerbin
+			dsc = 1
+			scv = 0.1428571
+			sbv = 1
+			sci = 60
+			cap = 70
+		}
+		Science
+		{
+			id = magnetosphericExperiment@KerbinInSpaceHigh
+			title = Analyse Magnetosphere while in space high over Kerbin
+			dsc = 2.5
+			scv = 0.4545455
+			sbv = 1
+			sci = 12
+			cap = 22
+		}
+		Science
+		{
+			id = magnetosphericExperiment@SunInSpaceHigh
+			title = Analyse Magnetosphere while in space high over the Sun
+			dsc = 2.5
+			scv = 0.4218181
+			sbv = 11
+			sci = 139.92
+			cap = 242
+		}
+		Science
+		{
+			id = magnetosphericExperiment@JoolInSpaceHigh
+			title = Analyse Magnetosphere while in space high over Jool
+			dsc = 2.5
+			scv = 0.4218182
+			sbv = 7
+			sci = 89.04
+			cap = 154
+		}
+		Science
+		{
+			id = magnetosphericExperiment@JoolInSpaceLow
+			title = Analyse Magnetosphere while in space near Jool
+			dsc = 2.5
+			scv = 0.4545455
+			sbv = 7
+			sci = 84
+			cap = 154
+		}
+		Science
+		{
+			id = magnetosphericExperiment@LaytheInSpaceLow
+			title = Analyse Magnetosphere while in space near Laythe
+			dsc = 2.5
+			scv = 0.4545454
+			sbv = 9
+			sci = 108
+			cap = 198
+		}
+		Science
+		{
+			id = mysteryGoo@LaytheFlyingHigh
+			title = Mystery Goo™ Observation from Laythe's upper atmosphere
+			dsc = 1
+			scv = 0.7692308
+			sbv = 11
+			sci = 33
+			cap = 143
+		}
+		Science
+		{
+			id = mysteryGoo@LaytheFlyingLow
+			title = Mystery Goo™ Observation while flying at Laythe
+			dsc = 1
+			scv = 1
+			sbv = 11
+			sci = 0
+			cap = 143
+		}
+		Science
+		{
+			id = mobileMaterialsLab@LaytheSrfLanded
+			title = Materials Study from Laythe's surface
+			dsc = 1
+			scv = 0.84375
+			sbv = 14
+			sci = 70
+			cap = 448
+		}
+		Science
+		{
+			id = temperatureScan@LaytheSrfLanded
+			title = Temperature Scan from Laythe's surface
+			dsc = 1
+			scv = 0.5
+			sbv = 14
+			sci = 56
+			cap = 112
+		}
+		Science
+		{
+			id = barometerScan@LaytheSrfLanded
+			title = Atmospheric Pressure Scan from Laythe's surface
+			dsc = 1
+			scv = 0.5
+			sbv = 14
+			sci = 84
+			cap = 168
+		}
+		Science
+		{
+			id = mysteryGoo@LaytheSrfLanded
+			title = Mystery Goo™ Observation from Laythe's surface
+			dsc = 1
+			scv = 0.7692308
+			sbv = 14
+			sci = 42
+			cap = 182
+		}
+		Science
+		{
+			id = magnetosphericExperiment@KerbinInSpaceLow
+			title = Analyse Magnetosphere while in space near Kerbin
+			dsc = 2.5
+			scv = 0.4545455
+			sbv = 1
+			sci = 12
+			cap = 22
+		}
+		Science
+		{
+			id = magnetosphericExperiment@EveInSpaceHigh
+			title = Analyse Magnetosphere while in space high over Eve
+			dsc = 2.5
+			scv = 0.4545455
+			sbv = 7
+			sci = 84
+			cap = 154
+		}
+		Science
+		{
+			id = magnetosphericExperiment@EveInSpaceLow
+			title = Analyse Magnetosphere while in space near Eve
+			dsc = 2.5
+			scv = 0.4545455
+			sbv = 7
+			sci = 84
+			cap = 154
+		}
+		Science
+		{
+			id = barometerScan@EveSrfSplashed
+			title = Atmospheric Pressure Scan from Eve's oceans
+			dsc = 1
+			scv = 0.5
+			sbv = 8
+			sci = 48
+			cap = 96
+		}
+		Science
+		{
+			id = mysteryGoo@EveSrfSplashed
+			title = Mystery Goo™ Observation from Eve's oceans
+			dsc = 1
+			scv = 0.7484615
+			sbv = 8
+			sci = 26.16
+			cap = 104
+		}
+		Science
+		{
+			id = temperatureScan@EveSrfSplashed
+			title = Temperature Scan from Eve's oceans
+			dsc = 1
+			scv = 0.5
+			sbv = 8
+			sci = 32
+			cap = 64
+		}
+		Science
+		{
+			id = mobileMaterialsLab@EveSrfSplashed
+			title = Materials Study from Eve's oceans
+			dsc = 1
+			scv = 0.84375
+			sbv = 8
+			sci = 40
+			cap = 256
+		}
+		Science
+		{
+			id = mysteryGoo@JoolInSpaceHigh
+			title = Mystery Goo™ Observation while in space high over Jool
+			dsc = 1
+			scv = 0.7692308
+			sbv = 7
+			sci = 21
+			cap = 91
+		}
+		Science
+		{
+			id = mobileMaterialsLab@JoolInSpaceHigh
+			title = Materials Study while in space high over Jool
+			dsc = 1
+			scv = 0.84375
+			sbv = 7
+			sci = 35
+			cap = 224
+		}
+		Science
+		{
+			id = magnetosphericExperiment@VallInSpaceHigh
+			title = Analyse Magnetosphere while in space high over Vall
+			dsc = 2.5
+			scv = 0.4545454
+			sbv = 9
+			sci = 108
+			cap = 198
+		}
+		Science
+		{
+			id = mysteryGoo@VallInSpaceHigh
+			title = Mystery Goo™ Observation while in space high over Vall
+			dsc = 1
+			scv = 0.7692307
+			sbv = 9
+			sci = 27
+			cap = 117
+		}
+		Science
+		{
+			id = mobileMaterialsLab@VallInSpaceHigh
+			title = Materials Study while in space high over Vall
+			dsc = 1
+			scv = 1
+			sbv = 9
+			sci = 0
+			cap = 288
+		}
+		Science
+		{
+			id = mobileMaterialsLab@VallInSpaceLow
+			title = Materials Study while in space near Vall
+			dsc = 1
+			scv = 0.84375
+			sbv = 9
+			sci = 45
+			cap = 288
+		}
+		Science
+		{
+			id = mysteryGoo@VallInSpaceLow
+			title = Mystery Goo™ Observation while in space near Vall
+			dsc = 1
+			scv = 0.7692307
+			sbv = 9
+			sci = 27
+			cap = 117
+		}
+		Science
+		{
+			id = temperatureScan@VallInSpaceLow
+			title = Temperature Scan while in space near Vall
+			dsc = 1
+			scv = 0.5
+			sbv = 9
+			sci = 36
+			cap = 72
+		}
+		Science
+		{
+			id = magnetosphericExperiment@VallInSpaceLow
+			title = Analyse Magnetosphere while in space near Vall
+			dsc = 2.5
+			scv = 0.4545454
+			sbv = 9
+			sci = 108
+			cap = 198
+		}
+		Science
+		{
+			id = mysteryGoo@VallSrfLanded
+			title = Mystery Goo™ Observation from Vall's surface
+			dsc = 1
+			scv = 0.7484615
+			sbv = 12
+			sci = 39.24
+			cap = 156
+		}
+		Science
+		{
+			id = mobileMaterialsLab@VallSrfLanded
+			title = Materials Study from Vall's surface
+			dsc = 1
+			scv = 0.84375
+			sbv = 12
+			sci = 60
+			cap = 384
+		}
+		Science
+		{
+			id = temperatureScan@VallSrfLanded
+			title = Temperature Scan from Vall's surface
+			dsc = 1
+			scv = 0.5
+			sbv = 12
+			sci = 48
+			cap = 96
+		}
+		Science
+		{
+			id = atmosphereAnalysis@KerbinFlyingLowShores
+			title = Atmosphere Analysis while flying over Kerbin's Shores
+			dsc = 10
+			scv = 0.1666666
+			sbv = 0.7
+			sci = 14
+			cap = 16.8
+		}
+		Science
+		{
+			id = crewReport@KerbinSrfLandedKSC
+			title = Crew Report from KSC
+			dsc = 1
+			scv = 0
+			sbv = 0.3
+			sci = 1.5
+			cap = 1.5
+		}
+		Science
+		{
+			id = gravityScan@KerbinInSpaceLowWater
+			title = Gravity Scan from space just above Kerbin's Water
+			dsc = 3
+			scv = 0.4545455
+			sbv = 1
+			sci = 12
+			cap = 22
+		}
+		Science
+		{
+			id = temperatureScan@KerbinInSpaceLow
+			title = Temperature Scan while in space near Kerbin
+			dsc = 1
+			scv = 0.25
+			sbv = 1
+			sci = 6
+			cap = 8
+		}
+		Science
+		{
+			id = seismicScan@KerbinSrfLandedLaunchPad
+			title = Seismic Scan from LaunchPad
+			dsc = 2.5
+			scv = 0.1818182
+			sbv = 0.3
+			sci = 5.4
+			cap = 6.6
+		}
+		Science
+		{
+			id = gravityScan@KerbinSrfLandedLaunchPad
+			title = Gravity Scan from LaunchPad
+			dsc = 3
+			scv = 0.1818182
+			sbv = 0.3
+			sci = 5.4
+			cap = 6.6
+		}
+		Science
+		{
+			id = gasChromotographyMassSpectrometryExperiment@KerbinSrfLanded
+			title = Analyse Magnetosphere from Kerbin's surface
+			dsc = 2.5
+			scv = 1
+			sbv = 0.3
+			sci = 0
+			cap = 6.6
+		}
+		Science
+		{
+			id = atmosphereAnalysis@KerbinSrfLandedLaunchPad
+			title = Atmosphere Analysis from LaunchPad
+			dsc = 10
+			scv = 1
+			sbv = 0.3
+			sci = 0
+			cap = 7.2
+		}
+		Science
+		{
+			id = barometerScan@KerbinFlyingLow
+			title = Atmospheric Pressure Scan while flying at Kerbin
+			dsc = 1
+			scv = 0.09999996
+			sbv = 0.7
+			sci = 7.56
+			cap = 8.4
+		}
+		Science
+		{
+			id = temperatureScan@KerbinFlyingLowShores
+			title = Temperature Scan while flying over Kerbin's Shores
+			dsc = 1
+			scv = 0.09999999
+			sbv = 0.7
+			sci = 5.04
+			cap = 5.6
+		}
+		Science
+		{
+			id = gasChromotographyMassSpectrometryExperiment@KerbinFlyingLow
+			title = Analyse Magnetosphere while flying at Kerbin
+			dsc = 2.5
+			scv = 0.4886363
+			sbv = 0.7
+			sci = 7.875
+			cap = 15.4
+		}
+		Science
+		{
+			id = crewReport@KerbinFlyingLowWater
+			title = Crew Report while flying over Kerbin's Water
+			dsc = 1
+			scv = 0
+			sbv = 0.7
+			sci = 3.5
+			cap = 3.5
+		}
+		Science
+		{
+			id = gravityScan@MunInSpaceHighMidlands
+			title = Gravity Scan while in space high over the Mun's Midlands
+			dsc = 3
+			scv = 0.09090909
+			sbv = 3
+			sci = 60
+			cap = 66
+		}
+		Science
+		{
+			id = mobileMaterialsLab@MunInSpaceLow
+			title = Materials Study while in space near the Mun
+			dsc = 1
+			scv = 0.21875
+			sbv = 3
+			sci = 75
+			cap = 96
+		}
+		Science
+		{
+			id = gravityScan@MunInSpaceLowMidlands
+			title = Gravity Scan from space just above the Mun's Midlands
+			dsc = 3
+			scv = 0.09090909
+			sbv = 3
+			sci = 60
+			cap = 66
+		}
+		Science
+		{
+			id = gravityScan@MunInSpaceLowHighlands
+			title = Gravity Scan from space just above the Mun's Highlands
+			dsc = 3
+			scv = 0.09090909
+			sbv = 3
+			sci = 60
+			cap = 66
+		}
+		Science
+		{
+			id = magnetosphericExperiment@MunInSpaceLow
+			title = Analyse Magnetosphere while in space near the Mun
+			dsc = 2.5
+			scv = 0.4545455
+			sbv = 3
+			sci = 36
+			cap = 66
+		}
+		Science
+		{
+			id = temperatureScan@MunInSpaceLow
+			title = Temperature Scan while in space near the Mun
+			dsc = 1
+			scv = 0
+			sbv = 3
+			sci = 24
+			cap = 24
+		}
+		Science
+		{
+			id = gravityScan@MunInSpaceLowEastFarsideCrater
+			title = Gravity Scan from space just above the Mun's East Farside Crater
+			dsc = 3
+			scv = 0.09090909
+			sbv = 3
+			sci = 60
+			cap = 66
+		}
+		Science
+		{
+			id = gravityScan@MunInSpaceLowCanyons
+			title = Gravity Scan from space just above the Mun's Canyons
+			dsc = 3
+			scv = 0.09090909
+			sbv = 3
+			sci = 60
+			cap = 66
+		}
+		Science
+		{
+			id = evaReport@MunInSpaceLowCanyons
+			title = EVA Report from space just above the Mun's Canyons
+			dsc = 1
+			scv = 0
+			sbv = 3
+			sci = 24
+			cap = 24
+		}
+		Science
+		{
+			id = gravityScan@MunInSpaceLowFarsideCrater
+			title = Gravity Scan from space just above the Mun's Farside Crater
+			dsc = 3
+			scv = 0.09090909
+			sbv = 3
+			sci = 60
+			cap = 66
+		}
+		Science
+		{
+			id = evaReport@MunInSpaceLowFarsideCrater
+			title = EVA Report from space just above the Mun's Farside Crater
+			dsc = 1
+			scv = 0
+			sbv = 3
+			sci = 24
+			cap = 24
+		}
+		Science
+		{
+			id = gravityScan@MunInSpaceLowNorthwestCrater
+			title = Gravity Scan from space just above the Mun's Northwest Crater
+			dsc = 3
+			scv = 0.09090909
+			sbv = 3
+			sci = 60
+			cap = 66
+		}
+		Science
+		{
+			id = mobileMaterialsLab@MunSrfLandedFarsideCrater
+			title = Materials Study from the Mun's Farside Crater
+			dsc = 1
+			scv = 0.21875
+			sbv = 4
+			sci = 100
+			cap = 128
+		}
+		Science
+		{
+			id = mysteryGoo@MunSrfLandedFarsideCrater
+			title = Mystery Goo™ Observation from the Mun's Farside Crater
+			dsc = 1
+			scv = 0.2307692
+			sbv = 4
+			sci = 40
+			cap = 52
+		}
+		Science
+		{
+			id = gravityScan@MunSrfLandedFarsideCrater
+			title = Gravity Scan from the Mun's Farside Crater
+			dsc = 3
+			scv = 0.09090909
+			sbv = 4
+			sci = 80
+			cap = 88
+		}
+		Science
+		{
+			id = temperatureScan@MunSrfLandedFarsideCrater
+			title = Temperature Scan from the Mun's Farside Crater
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = crewReport@MunSrfLandedFarsideCrater
+			title = Crew Report from the Mun's Farside Crater
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 20
+			cap = 20
+		}
+		Science
+		{
+			id = seismicScan@MunSrfLandedFarsideCrater
+			title = Seismic Scan from the Mun's Farside Crater
+			dsc = 2.5
+			scv = 0.5573745
+			sbv = 4
+			sci = 38.95104
+			cap = 88
+		}
+		Science
+		{
+			id = surfaceSample@MunSrfLandedFarsideCrater
+			title = Surface Sample from the Mun's Farside Crater
+			dsc = 1
+			scv = 0.25
+			sbv = 4
+			sci = 120
+			cap = 160
+		}
+		Science
+		{
+			id = evaReport@MunSrfLandedFarsideCrater
+			title = EVA Report from the Mun's Farside Crater
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = mobileMaterialsLab@MunSrfLandedNorthwestCrater
+			title = Materials Study from the Mun's Northwest Crater
+			dsc = 1
+			scv = 0.21875
+			sbv = 4
+			sci = 100
+			cap = 128
+		}
+		Science
+		{
+			id = mysteryGoo@MunSrfLandedNorthwestCrater
+			title = Mystery Goo™ Observation from the Mun's Northwest Crater
+			dsc = 1
+			scv = 0.2307692
+			sbv = 4
+			sci = 40
+			cap = 52
+		}
+		Science
+		{
+			id = temperatureScan@MunSrfLandedNorthwestCrater
+			title = Temperature Scan from the Mun's Northwest Crater
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = gravityScan@MunSrfLandedNorthwestCrater
+			title = Gravity Scan from the Mun's Northwest Crater
+			dsc = 3
+			scv = 0.09090909
+			sbv = 4
+			sci = 80
+			cap = 88
+		}
+		Science
+		{
+			id = crewReport@MunSrfLandedNorthwestCrater
+			title = Crew Report from the Mun's Northwest Crater
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 20
+			cap = 20
+		}
+		Science
+		{
+			id = evaReport@MunSrfLandedNorthwestCrater
+			title = EVA Report from the Mun's Northwest Crater
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = surfaceSample@MunSrfLandedNorthwestCrater
+			title = Surface Sample from the Mun's Northwest Crater
+			dsc = 1
+			scv = 0.25
+			sbv = 4
+			sci = 120
+			cap = 160
+		}
+		Science
+		{
+			id = mobileMaterialsLab@MunSrfLandedEastCrater
+			title = Materials Study from the Mun's East Crater
+			dsc = 1
+			scv = 0.21875
+			sbv = 4
+			sci = 100
+			cap = 128
+		}
+		Science
+		{
+			id = mysteryGoo@MunSrfLandedEastCrater
+			title = Mystery Goo™ Observation from the Mun's East Crater
+			dsc = 1
+			scv = 0.2307692
+			sbv = 4
+			sci = 40
+			cap = 52
+		}
+		Science
+		{
+			id = seismicScan@MunSrfLandedEastCrater
+			title = Seismic Scan from the Mun's East Crater
+			dsc = 2.5
+			scv = 1
+			sbv = 4
+			sci = 0
+			cap = 88
+		}
+		Science
+		{
+			id = gravityScan@MunSrfLandedEastCrater
+			title = Gravity Scan from the Mun's East Crater
+			dsc = 3
+			scv = 0.09090909
+			sbv = 4
+			sci = 80
+			cap = 88
+		}
+		Science
+		{
+			id = temperatureScan@MunSrfLandedEastCrater
+			title = Temperature Scan from the Mun's East Crater
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = crewReport@MunSrfLandedEastCrater
+			title = Crew Report from the Mun's East Crater
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 20
+			cap = 20
+		}
+		Science
+		{
+			id = surfaceSample@MunSrfLandedEastCrater
+			title = Surface Sample from the Mun's East Crater
+			dsc = 1
+			scv = 0.25
+			sbv = 4
+			sci = 120
+			cap = 160
+		}
+		Science
+		{
+			id = evaReport@MunSrfLandedEastCrater
+			title = EVA Report from the Mun's East Crater
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = gravityScan@MunSrfLandedPolarCrater
+			title = Gravity Scan from the Mun's Polar Crater
+			dsc = 3
+			scv = 0.09090909
+			sbv = 4
+			sci = 80
+			cap = 88
+		}
+		Science
+		{
+			id = temperatureScan@MunSrfLandedPolarCrater
+			title = Temperature Scan from the Mun's Polar Crater
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = crewReport@MunSrfLandedPolarCrater
+			title = Crew Report from the Mun's Polar Crater
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 20
+			cap = 20
+		}
+		Science
+		{
+			id = surfaceSample@MunSrfLandedPolarCrater
+			title = Surface Sample from the Mun's Polar Crater
+			dsc = 1
+			scv = 0.25
+			sbv = 4
+			sci = 120
+			cap = 160
+		}
+		Science
+		{
+			id = evaReport@MunSrfLandedPolarCrater
+			title = EVA Report from the Mun's Polar Crater
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = mobileMaterialsLab@MunSrfLandedPolarCrater
+			title = Materials Study from the Mun's Polar Crater
+			dsc = 1
+			scv = 0.21875
+			sbv = 4
+			sci = 100
+			cap = 128
+		}
+		Science
+		{
+			id = mysteryGoo@MunSrfLandedPolarCrater
+			title = Mystery Goo™ Observation from the Mun's Polar Crater
+			dsc = 1
+			scv = 0.2307692
+			sbv = 4
+			sci = 40
+			cap = 52
+		}
+		Science
+		{
+			id = gravityScan@MunSrfLandedSouthwestCrater
+			title = Gravity Scan from the Mun's Southwest Crater
+			dsc = 3
+			scv = 0.09090909
+			sbv = 4
+			sci = 80
+			cap = 88
+		}
+		Science
+		{
+			id = temperatureScan@MunSrfLandedSouthwestCrater
+			title = Temperature Scan from the Mun's Southwest Crater
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = mobileMaterialsLab@MunSrfLandedSouthwestCrater
+			title = Materials Study from the Mun's Southwest Crater
+			dsc = 1
+			scv = 0.21875
+			sbv = 4
+			sci = 100
+			cap = 128
+		}
+		Science
+		{
+			id = mysteryGoo@MunSrfLandedSouthwestCrater
+			title = Mystery Goo™ Observation from the Mun's Southwest Crater
+			dsc = 1
+			scv = 0.2307692
+			sbv = 4
+			sci = 40
+			cap = 52
+		}
+		Science
+		{
+			id = crewReport@MunSrfLandedSouthwestCrater
+			title = Crew Report from the Mun's Southwest Crater
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 20
+			cap = 20
+		}
+		Science
+		{
+			id = surfaceSample@MunSrfLandedSouthwestCrater
+			title = Surface Sample from the Mun's Southwest Crater
+			dsc = 1
+			scv = 0.25
+			sbv = 4
+			sci = 120
+			cap = 160
+		}
+		Science
+		{
+			id = evaReport@MunSrfLandedSouthwestCrater
+			title = EVA Report from the Mun's Southwest Crater
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = gravityScan@MunSrfLandedPoles
+			title = Gravity Scan from the Mun's Poles
+			dsc = 3
+			scv = 0.09090909
+			sbv = 4
+			sci = 80
+			cap = 88
+		}
+		Science
+		{
+			id = temperatureScan@MunSrfLandedPoles
+			title = Temperature Scan from the Mun's Poles
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = mobileMaterialsLab@MunSrfLandedPoles
+			title = Materials Study from the Mun's Poles
+			dsc = 1
+			scv = 0.21875
+			sbv = 4
+			sci = 100
+			cap = 128
+		}
+		Science
+		{
+			id = mysteryGoo@MunSrfLandedPoles
+			title = Mystery Goo™ Observation from the Mun's Poles
+			dsc = 1
+			scv = 0.2307692
+			sbv = 4
+			sci = 40
+			cap = 52
+		}
+		Science
+		{
+			id = crewReport@MunSrfLandedPoles
+			title = Crew Report from the Mun's Poles
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 20
+			cap = 20
+		}
+		Science
+		{
+			id = surfaceSample@MunSrfLandedPoles
+			title = Surface Sample from the Mun's Poles
+			dsc = 1
+			scv = 0.25
+			sbv = 4
+			sci = 120
+			cap = 160
+		}
+		Science
+		{
+			id = evaReport@MunSrfLandedPoles
+			title = EVA Report from the Mun's Poles
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = recovery@MunOrbited
+			title = Recovery of a vessel returned from orbit around the Mun
+			dsc = 1
+			scv = 0.1666667
+			sbv = 16
+			sci = 16
+			cap = 19.2
+		}
+		Science
+		{
+			id = crewReport@KerbinFlyingLowShores
+			title = Crew Report while flying over Kerbin's Shores
+			dsc = 1
+			scv = 1
+			sbv = 0.7
+			sci = 0
+			cap = 3.5
+		}
+		Science
+		{
+			id = evaReport@KerbinFlyingLowShores
+			title = EVA Report while flying over Kerbin's Shores
+			dsc = 1
+			scv = 1
+			sbv = 0.7
+			sci = 0
+			cap = 5.6
+		}
+		Science
+		{
+			id = evaReport@KerbinFlyingLowWater
+			title = EVA Report while flying over Kerbin's Water
+			dsc = 1
+			scv = 1
+			sbv = 0.7
+			sci = 0
+			cap = 5.6
+		}
+		Science
+		{
+			id = crewReport@KerbinFlyingHigh
+			title = Crew Report from Kerbin's upper atmosphere
+			dsc = 1
+			scv = 0
+			sbv = 0.7
+			sci = 3.5
+			cap = 3.5
+		}
+		Science
+		{
+			id = gravityScan@KerbinInSpaceHighWater
+			title = Gravity Scan while in space high over Kerbin's Water
+			dsc = 3
+			scv = 1
+			sbv = 1
+			sci = 0
+			cap = 22
+		}
+		Science
+		{
+			id = mobileMaterialsLab@KerbinInSpaceHigh
+			title = Materials Study while in space high over Kerbin
+			dsc = 1
+			scv = 0.21875
+			sbv = 1
+			sci = 25
+			cap = 32
+		}
+		Science
+		{
+			id = mysteryGoo@KerbinInSpaceHigh
+			title = Mystery Goo™ Observation while in space high over Kerbin
+			dsc = 1
+			scv = 0.2307692
+			sbv = 1
+			sci = 10
+			cap = 13
+		}
+		Science
+		{
+			id = gravityScan@KerbinInSpaceHighGrasslands
+			title = Gravity Scan while in space high over Kerbin's Grasslands
+			dsc = 3
+			scv = 0.09090909
+			sbv = 1
+			sci = 20
+			cap = 22
+		}
+		Science
+		{
+			id = gravityScan@KerbinInSpaceHighHighlands
+			title = Gravity Scan while in space high over Kerbin's Highlands
+			dsc = 3
+			scv = 1
+			sbv = 1
+			sci = 0
+			cap = 22
+		}
+		Science
+		{
+			id = gravityScan@KerbinInSpaceHighMountains
+			title = Gravity Scan while in space high over Kerbin's Mountains
+			dsc = 3
+			scv = 1
+			sbv = 1
+			sci = 0
+			cap = 22
+		}
+		Science
+		{
+			id = evaReport@KerbinFlyingLowHighlands
+			title = EVA Report while flying over Kerbin's Highlands
+			dsc = 1
+			scv = 1
+			sbv = 0.7
+			sci = 0
+			cap = 5.6
+		}
+		Science
+		{
+			id = evaReport@KerbinSrfLandedHighlands
+			title = EVA Report from Kerbin's Highlands
+			dsc = 1
+			scv = 0
+			sbv = 0.3
+			sci = 2.4
+			cap = 2.4
+		}
+		Science
+		{
+			id = surfaceSample@KerbinSrfLandedHighlands
+			title = Surface Sample from Kerbin's Highlands
+			dsc = 1
+			scv = 0.25
+			sbv = 0.3
+			sci = 9
+			cap = 12
+		}
+		Science
+		{
+			id = crewReport@KerbinFlyingLowGrasslands
+			title = Crew Report while flying over Kerbin's Grasslands
+			dsc = 1
+			scv = 0
+			sbv = 0.7
+			sci = 3.5
+			cap = 3.5
+		}
+		Science
+		{
+			id = evaReport@KerbinFlyingLowGrasslands
+			title = EVA Report while flying over Kerbin's Grasslands
+			dsc = 1
+			scv = 1
+			sbv = 0.7
+			sci = 0
+			cap = 5.6
+		}
+		Science
+		{
+			id = gravityScan@KerbinInSpaceHighShores
+			title = Gravity Scan while in space high over Kerbin's Shores
+			dsc = 3
+			scv = 1
+			sbv = 1
+			sci = 0
+			cap = 22
+		}
+		Science
+		{
+			id = crewReport@SunInSpaceHigh
+			title = Crew Report while in space high over the Sun
+			dsc = 1
+			scv = 0
+			sbv = 11
+			sci = 55
+			cap = 55
+		}
+		Science
+		{
+			id = evaReport@SunInSpaceHigh
+			title = EVA Report while in space high over the Sun
+			dsc = 1
+			scv = 0
+			sbv = 11
+			sci = 88
+			cap = 88
+		}
+		Science
+		{
+			id = crewReport@JoolInSpaceHigh
+			title = Crew Report while in space high over Jool
+			dsc = 1
+			scv = 0
+			sbv = 7
+			sci = 35
+			cap = 35
+		}
+		Science
+		{
+			id = evaReport@JoolInSpaceHigh
+			title = EVA Report while in space high over Jool
+			dsc = 1
+			scv = 0
+			sbv = 7
+			sci = 56
+			cap = 56
+		}
+		Science
+		{
+			id = crewReport@LaytheInSpaceHigh
+			title = Crew Report while in space high over Laythe
+			dsc = 1
+			scv = 1
+			sbv = 9
+			sci = 0
+			cap = 45
+		}
+		Science
+		{
+			id = evaReport@LaytheInSpaceHigh
+			title = EVA Report while in space high over Laythe
+			dsc = 1
+			scv = 1
+			sbv = 9
+			sci = 0
+			cap = 72
+		}
+		Science
+		{
+			id = mobileMaterialsLab@LaytheInSpaceHigh
+			title = Materials Study while in space high over Laythe
+			dsc = 1
+			scv = 1
+			sbv = 9
+			sci = 0
+			cap = 288
+		}
+		Science
+		{
+			id = mysteryGoo@LaytheInSpaceHigh
+			title = Mystery Goo™ Observation while in space high over Laythe
+			dsc = 1
+			scv = 1
+			sbv = 9
+			sci = 0
+			cap = 117
+		}
+		Science
+		{
+			id = crewReport@LaytheInSpaceLow
+			title = Crew Report while in space near Laythe
+			dsc = 1
+			scv = 0
+			sbv = 9
+			sci = 45
+			cap = 45
+		}
+		Science
+		{
+			id = evaReport@LaytheInSpaceLow
+			title = EVA Report while in space near Laythe
+			dsc = 1
+			scv = 1
+			sbv = 9
+			sci = 0
+			cap = 72
+		}
+		Science
+		{
+			id = mobileMaterialsLab@LaytheInSpaceLow
+			title = Materials Study while in space near Laythe
+			dsc = 1
+			scv = 1
+			sbv = 9
+			sci = 0
+			cap = 288
+		}
+		Science
+		{
+			id = mysteryGoo@LaytheInSpaceLow
+			title = Mystery Goo™ Observation while in space near Laythe
+			dsc = 1
+			scv = 1
+			sbv = 9
+			sci = 0
+			cap = 117
+		}
+		Science
+		{
+			id = temperatureScan@LaytheInSpaceLow
+			title = Temperature Scan while in space near Laythe
+			dsc = 1
+			scv = 1
+			sbv = 9
+			sci = 0
+			cap = 72
+		}

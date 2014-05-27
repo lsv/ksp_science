@@ -2,4 +2,5 @@
 .panel-heading,
 .place-heading {cursor:pointer}
 .panel-title {font-size:28px;}
+.progress-bar-success {color:black;}
 td.na {background-color: GrayText}
