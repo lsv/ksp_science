@@ -5,25 +5,42 @@
             {% include 'KspScienceBundle:Default/_partial:planet.html.twig' with {"planets": biomes} %}
         </div>
         <div class="col-md-2">
-            <form action="{{ url('default_index') }}" method="post" enctype="multipart/form-data">
-                <div class="form-group">
-                    <label for="persistent">Persistent file</label>
-                    <input class="form-control" type="file" name="persistent" id="persistent" />
+            <div data-spy="affix" style="margin-right:15px;">
+                <form action="{{ url('default_index') }}" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="persistent">Persistent file</label>
+                        <input class="form-control" type="file" name="persistent" id="persistent" />
+                        <span class="help-block">
+                            The file can be found in your
+                            <br />
+                            &lt;KSP folder&gt;/saves/&lt;your save name&gt;
+                            <br />
+                            The file extension is ".sfs" (can also be a quicksave.sfs file)
+                        </span>
+                    </div>
+                    <button type="submit" class="btn btn-info btn-lg">Submit</button>
                     <span class="help-block">
-                        The file can be found in your
-                        <br />
-                        &lt;KSP folder&gt;/saves/&lt;your save name&gt;
-                        <br />
-                        The file extension is ".sfs" (can also be a quicksave.sfs file)
-                    </span>
+                        Your file will be stored, and will only be used for testing purposes
+                    </span>  
+                </form>
+                <hr />
+                <div id="planetnav">
+                    <ul class="nav list-unstyled">
+                        {% for planet, places in biomes %}
+                            <li>
+                                <a href="#planet{{ planet }}">{{ planet }}</a>
+                                {#
+                                <ul class="nav">
+                                    {% for placename, biomes in places %}
+                                        <li><a href="#planet{{ planet }}{{ placename }}">{{ placename }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                                #}
+                            </li>
+                        {% endfor %}
+                    </ul>
                 </div>
-                <button type="submit" class="btn btn-info btn-lg">Submit</button>
-                
-                <span class="help-block">
-                    Your file will be stored, and will only be used for testing purposes
-                </span>
-                
-            </form>
+            </div>
         </div>
     </div>
 {% endblock %}

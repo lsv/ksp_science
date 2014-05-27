@@ -1,12 +1,12 @@
 {% for planet, places in planets %}
-    <div class="panel panel-info">
+    <div class="panel panel-info" id="planet{{ planet }}">
         <div class="panel-heading">
             <h2 class="panel-title">{{ planet }}</h2>
         </div>
     
         <div class="panel-body">
             {% for placename, biomes in places %}
-                <div class="place-heading">
+                <div class="place-heading" id="planet{{ planet }}{{ placename }}">
                     <h3>{{ placename }}</h3>
                 </div>
                 

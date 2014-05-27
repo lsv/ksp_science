@@ -3,4 +3,6 @@
 .place-heading {cursor:pointer}
 .panel-title {font-size:28px;}
 .progress-bar-success {color:black;}
-td.na {background-color: GrayText}
+#planetnav li {line-height:200%;}
+#planetnav li > a {padding:0;color:gray;background:none;padding-left:5px;}
+#planetnav li.active {border-left:3px solid #256b8d;margin-left:-3px;}
