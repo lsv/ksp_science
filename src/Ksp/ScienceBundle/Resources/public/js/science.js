@@ -36,7 +36,7 @@ jQuery(function ($) {
     $(".nav a[href]").click(function () {
         var target = $(this).attr("href");
         target = target.substring(1, target.length);
-        $('html, body').animate({
+        $('html').animate({
             scrollTop: $('[id="' + target + '"]').offset().top - 100
         }, 500);
         return false;
