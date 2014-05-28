@@ -7,7 +7,7 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
     <link href="{{ asset('bundles/kspscience/css/science.css') }}" rel="stylesheet" />
 </head>
-<body data-spy="scroll" data-target="#planetnav">
+<body data-spy="scroll" data-offset="120" data-target="#planetnav">
     {#
     {% block flashes %}
         {% if app.session.flashbag.peekAll|length > 0 %}
