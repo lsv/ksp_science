@@ -41,6 +41,7 @@
         ],
         "Grasslands": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Splashed", "key": "SrfSplashed%", "techs": "111111"},
             {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
             {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
@@ -48,6 +49,7 @@
         ],
         "Shores": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Splashed", "key": "SrfSplashed%", "techs": "111111"},
             {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
             {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
@@ -55,6 +57,7 @@
         ],
         "Mountains": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Splashed", "key": "SrfSplashed%", "techs": "111111"},
             {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
             {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
@@ -62,6 +65,7 @@
         ],
         "Highlands": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Splashed", "key": "SrfSplashed%", "techs": "111111"},
             {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
             {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
@@ -69,6 +73,7 @@
         ],
         "Deserts": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Splashed", "key": "SrfSplashed%", "techs": "111111"},
             {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
             {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
@@ -76,6 +81,7 @@
         ],
         "Water": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Splashed", "key": "SrfSplashed%", "techs": "111111"},
             {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
             {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
@@ -83,6 +89,7 @@
         ],
         "Badlands": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Splashed", "key": "SrfSplashed%", "techs": "111111"},
             {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
             {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
@@ -90,6 +97,7 @@
         ],
         "Tundra": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Splashed", "key": "SrfSplashed%", "techs": "111111"},
             {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
             {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
@@ -97,6 +105,7 @@
         ],
         "IceCaps": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
+            {"name": "Splashed", "key": "SrfSplashed%", "techs": "111111"},
             {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
             {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
