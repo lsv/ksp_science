@@ -21,7 +21,6 @@
   visibility: hidden;
 }
 
-td.science {vertical-align: middle !important;}
 
 /** Ribbon **/
 /* Left will inherit from right (so we don't need to duplicate code) */

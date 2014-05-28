@@ -1,13 +1,9 @@
 {% for biome in biomes %}
     <tr>
-        <td>
-            {{ biome.name }}
-            {% set techkey %}{{ planet }}{{ biome.key|replace({'%': place}) }}{% endset %}
-            {% include 'KspScienceBundle:Default/_partial:progress.html.twig' with {"techkey": techkey} %}
-        </td>
+        <td>{{ biome.name }}</td>
         {% for t in biome.realtechs %}
             {% if t.avail %}
-                <td class="science">{% include 'KspScienceBundle:Default/_partial:science.html.twig' with {"biome": biome, "tech": t.name, "planet": planet, "place": place} %}</td>
+                <td>{% include 'KspScienceBundle:Default/_partial:science.html.twig' with {"biome": biome, "tech": t.name, "planet": planet, "place": place} %}</td>
             {% else %}
                 <td class="danger">&nbsp;</td>
             {% endif %}

@@ -53,7 +53,7 @@ class DefaultController extends Controller
             'mobileMaterialsLab' => array('name' => 'mobileMaterialsLab', 'avail' => 1)
         );
         
-        $specialTechs = array('temperatureScan', 'barometerScan', 'gravityScan', 'seismicScan', 'atmosphereAnalysis', 'surfaceSample');
+        $specialTechs = array('temperatureScan', 'barometerScan', 'gravityScan', 'XX2', 'XX3', 'surfaceSample');
         
         foreach($planets as $planet => &$places) {
             foreach($places as $placename => &$biomes) {

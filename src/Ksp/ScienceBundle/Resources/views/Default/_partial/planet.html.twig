@@ -1,21 +1,16 @@
 {% for planet, places in planets %}
     <section class="panel panel-info" id="planet{{ planet }}">
         <div class="panel-heading">
-            <h2 class="panel-title">
-                {{ planet }}
-                {% include 'KspScienceBundle:Default/_partial:progress.html.twig' with {"techkey": planet} %}
-            </h2>
+            <h2 class="panel-title">{{ planet }}</h2>
         </div>
     
         <div class="panel-body">
             {% for placename, biomes in places %}
                 <div class="place-heading" id="planet{{ planet }}{{ placename }}">
                     <h3>{{ placename }}</h3>
-                    {% set techkey %}{{ planet }}{{ placename }}{% endset %}
-                    {% include 'KspScienceBundle:Default/_partial:progress.html.twig' with {"techkey": techkey} %}
                 </div>
                 
-                <table class="table table-hover table-condensed">
+                <table class="table table-striped table-condensed">
                     <thead>{% include 'KspScienceBundle:Default/_partial:techheader.html.twig' %}</thead>
                     <tbody>{% include 'KspScienceBundle:Default/_partial:biomebody.html.twig' with {"biomes": biomes, "planet": planet, "place": placename} %}</tbody>
                 </table>
