@@ -1,0 +1,19 @@
+{% for key, science in sciences %}
+    {% if key == techkey %}
+        {% if science.cap > 0 and science.points > 0 %}
+            {% set percent = (science.points*100)/science.cap %}
+            {% if percent > 80 %}
+                {% set bar = 'success' %}
+            {% elseif percent > 50 %}
+                {% set bar = 'warning' %}
+            {% else %}
+                {% set bar = 'info' %}
+            {% endif %}
+            <div class="progress">
+                <div class="progress-bar progress-bar-{{ bar }}" style="width: {{ percent|round(2) }}%;">
+                    {{ percent|round(2) }}%
+                </div>
+            </div>
+        {% endif %}
+    {% endif %}
+{% endfor %}

@@ -1,18 +1,2 @@
-{% if '%' in biome.key  %}
-    {% set techkey %}{{ tech }}@{{ planet }}{{ biome.key|replace({'%': place}) }}{% endset %}
-{% else %}
-    {% set techkey %}{{ tech }}@{{ planet }}{{ biome.key }}{% endset %}
-{% endif %}
-
-{% for key, science in sciences %}
-    {% if key == techkey %}
-        {% if science.cap > 0 and science.points > 0 %}
-            {% set percent = (science.points*100)/science.cap %}
-            <div class="progress">
-                <div class="progress-bar progress-bar-success" style="width: {{ percent|round(2) }}%;">
-                    {{ percent|round(2) }}%
-                </div>
-            </div>
-        {% endif %}
-    {% endif %}
-{% endfor %}
+{% set techkey %}{{ tech }}@{{ planet }}{{ biome.key|replace({'%': place}) }}{% endset %}
+{% include 'KspScienceBundle:Default/_partial:progress.html.twig' with {"techkey": techkey} %}

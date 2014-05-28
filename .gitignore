@@ -13,3 +13,4 @@
 *.php~
 /app/uploads/
 !app/uploads/.gitkeep
+*.sts

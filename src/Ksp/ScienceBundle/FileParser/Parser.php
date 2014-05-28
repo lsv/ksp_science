@@ -46,9 +46,34 @@ class Parser
             }
             
             foreach($scenario->Science as $science) {
+                // Totals pr place
+                list($tmp, $totalkey) = explode('@', $this->__($science->id));
+                if (array_key_exists($totalkey, $output)) {
+                    $output[$totalkey]['cap'] += (float)$this->__($science->cap);
+                    $output[$totalkey]['points'] += (float)$this->__($science->sci);
+                } else {
+                    $output[$totalkey] = array(
+                        'cap' => (float)$this->__($science->cap),
+                        'points' => (float)$this->__($science->sci)
+                    );
+                }
+                
+                // Totals pr planet
+                $planet = preg_split('/(?=[A-Z])/', $totalkey, -1, PREG_SPLIT_NO_EMPTY);
+                if (array_key_exists($planet[0], $output)) {
+                    $output[$planet[0]]['cap'] += (float)$this->__($science->cap);
+                    $output[$planet[0]]['points'] += (float)$this->__($science->sci);
+                } else {
+                    $output[$planet[0]] = array(
+                        'cap' => (float)$this->__($science->cap),
+                        'points' => (float)$this->__($science->sci)
+                    );
+                }
+                
+                // Pr tech
                 $output[$this->__($science->id)] = array(
-                    'cap' => $this->__($science->cap),
-                    'points' => $this->__($science->sci)
+                    'cap' => (float)$this->__($science->cap),
+                    'points' => (float)$this->__($science->sci)
                 );
             }
         }
