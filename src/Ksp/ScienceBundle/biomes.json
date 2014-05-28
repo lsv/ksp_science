@@ -67,7 +67,7 @@
             {"name": "Low Space", "key": "InSpaceLow%", "techs": "001000"},
             {"name": "High Space", "key": "InSpaceHigh%", "techs": "001000"}
         ],
-        "Desert": [
+        "Deserts": [
             {"name": "Surface", "key": "SrfLanded%", "techs": "111111"},
             {"name": "Lower Atmosphere", "key": "FlyingLow%", "techs": "110010"},
             {"name": "Upper Atmosphere", "key": "XXX", "techs": "110010"},
